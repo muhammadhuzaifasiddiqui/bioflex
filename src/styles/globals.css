@@ -83,6 +83,14 @@ h4{
     color: #666;
 }
 
+.bg-primary {
+    background: #911e3d;
+}
+
+.bg-secondary {
+    background: #FFFFFF80;
+}
+
 .py-40 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -96,10 +104,6 @@ h4{
 /* header */
 .bg-navbar {
   background: #F4EDE480;
-}
-
-.navbar-button {
-  background: rgba(223, 14, 14, 0.2);
 }
 
 .Logo {
