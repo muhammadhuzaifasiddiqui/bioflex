@@ -9,9 +9,9 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <header>
-        <div>
-          <nav className="navbar absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
+      <header className="navbar-section px-3 sm:px-3.5 md:px-5">
+        <div class="w-full container nav-container mx-auto">
+          <nav className="navbar absolute w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
             <div className="container mx-auto relative left-0">
               <div className="bg-navbar flex justify-between items-center rounded-[12px] pt-[5px] pb-[5px] pl-[20px] pr-[10px]">
                 <div className="Logo-wrapper">
