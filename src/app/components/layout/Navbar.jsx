@@ -7,7 +7,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
-  return (
+  return ( 
     <>
       <nav className="navbar absolute bg-blue-500 lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
         <div className="container mx-auto relative left-0">
@@ -24,10 +24,11 @@ const Navbar = () => {
             </div>
             <div className="lg:flex hidden navbar-menu gap-x-7.5 text-white font-medium">
               <a href="#">Home</a>
-              <a href="#">Product</a>
-              <a href="#">Services</a>
               <a href="#">About</a>
-              <a href="#">Reviews</a>
+              <a href="#">Services</a>
+              <a href="#">Products</a>
+              <a href="#">Locations</a>
+              <a href="#">Articles</a>              
             </div>
             <div className="lg:flex hidden rounded-[30px] navbar-button py-[1px] pr-[1px] pl-5">
               <a
