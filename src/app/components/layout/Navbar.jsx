@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return ( 
     <>
-      <nav className="navbar absolute bg-blue-500 lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
+      <nav className="navbar absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
         <div className="container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px] py-1.5 pr-2.5 pl-5">
             <div className="Logo-wrapper">
