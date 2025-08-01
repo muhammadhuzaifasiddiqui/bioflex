@@ -112,9 +112,25 @@ h4 {
 }
 
 .navbar-section {
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(10px);
+    z-index: 100;
+    width: calc(100% - 100px);
+    margin: auto;
+    transition: all .2s ease-in-out;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
 }
+
+.navbar-section .nav-container {
+    backdrop-filter: blur(10px);
+    background: #f4ede480;
+    border-radius: 10px;
+    max-width: 1140px;
+    padding: 8px 20px;
+    box-shadow: 0 0 24px #00000026;
+}
+
 /* hero section */
 
 /* service section */
