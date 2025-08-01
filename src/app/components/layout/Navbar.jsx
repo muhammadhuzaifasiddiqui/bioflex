@@ -7,45 +7,54 @@ import Link from "next/link";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
-  return ( 
+  return (
     <>
       <nav className="navbar absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
         <div className="container mx-auto relative left-0">
-          <div className="bg-navbar flex justify-between items-center rounded-[30px] py-1.5 pr-2.5 pl-5">
+          <div className="bg-navbar flex justify-between items-center rounded-[12px] pt-[5px] pb-[5px] pl-[20px] pr-[10px]">
             <div className="Logo-wrapper">
               <Image
-                src={"/images/HM Properties.png"}
-                width={151}
-                height={23}
+                src={"/images/logo.svg"}
+                width={120}
+                height={50}
                 alt="logo"
                 unoptimized={true}
                 className="w-full! h-full! object-cover"
               />
             </div>
-            <div className="lg:flex hidden navbar-menu gap-x-7.5 text-white font-medium">
+            <div className="lg:flex hidden navbar-menu gap-x-7.5 text-white">
               <a href="#">Home</a>
               <a href="#">About</a>
               <a href="#">Services</a>
               <a href="#">Products</a>
               <a href="#">Locations</a>
-              <a href="#">Articles</a>              
+              <a href="#">Articles</a>
             </div>
-            <div className="lg:flex hidden rounded-[30px] navbar-button py-[1px] pr-[1px] pl-5">
+
+            <div className="lg:flex hidden rounded-[8px] p-[10px]">
               <a
                 href="#"
                 className="flex text-white font-medium items-center gap-x-2.5"
               >
-                Contact us
-                <div className="h-12.5 w-12.54 aspect-square rounded-full bg-white p-4.5">
-                  <Image
-                    src={"/images/Arrow 1.png"}
-                    width={20}
-                    height={20}
-                    alt="location"
-                    unoptimized={true}
-                    className="w-full! h-full! object-cover"
-                  />
-                </div>
+                Login
+              </a>
+            </div>
+
+            <div className="lg:flex hidden rounded-[8px] navbar-button py-[10px] px-[27px]">
+              <a
+                href="#"
+                className="flex text-white font-medium items-center gap-x-2.5"
+              >
+                Login
+              </a>
+            </div>
+
+            <div className="lg:flex hidden rounded-[8px] navbar-button py-[10px] px-[27px]">
+              <a
+                href="#"
+                className="flex text-white font-medium items-center gap-x-2.5"
+              >
+                Login
               </a>
             </div>
             <div className="lg:hidden flex items-center">
