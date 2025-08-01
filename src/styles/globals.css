@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: poppins, sans-serif;
+    color: #8a8a8a;
+    background: url(/images/Noise-&-Texture.png) no-repeat 50%, var(--background-color);
+    background-size: cover;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.font-behindthetineties {
+  font-family: "font-behindthetineties";
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 75px;
+}
+
+h4{
+ font-size: 24px; 
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-38 {
+  font-size: 38px;
+}
+
+.text-primary {
+    color: #911e3d;
+}
+
+.text-dark {
+    color: #1f1f1f;
+}
+
+.text-secondary {
+    color: #8b8b8b;
+}
+
+.text-secondary-dark {
+    color: #3a3a3a;
+}
+
+.text-secondary-light {
+    color: #1f1f1fcc;
+}
+
+.text-grey {
+    color: #666;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* header */
+.bg-navbar {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-button {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.Logo {
+  font-size: 20px;
+}
+
+/* hero section */
+
+/* service section */
+
+/* product section */
+
+/* trusted section */
+
+/* blog Section */
+
+/* services-swiper-section */
+
+/* book-now-section */
+
+/* contact-section */
+
+/* footer-section */
+
+/* Responsive */
+@media screen and (max-width: 1023.97px) {
+
+}
+
+@media screen and (max-width: 991.97px) {
+
+}
+
+@media screen and (max-width: 767.97px) {
+
+}
+
+@media screen and (max-width: 575.97px) {
+
+}
