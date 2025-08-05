@@ -122,14 +122,6 @@ h4 {
     right: 0;
 }
 
-.navbar-section .nav-container {
-    backdrop-filter: blur(10px);
-    background: #f4ede480;
-    border-radius: 10px;
-    max-width: 1140px;
-    padding: 8px 20px;
-    box-shadow: 0 0 24px #00000026;
-}
 
 /* hero section */
 
