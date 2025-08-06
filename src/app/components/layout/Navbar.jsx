@@ -43,10 +43,30 @@ const Navbar = () => {
               </a>
             </div>
 
-            <div className="flex rounded-[8px] navbar-button px-[27px] py-[10px]">
+            <div className="lg:flex hidden navbar-button gap-2">
+              <div className="nav-icon p-[10px] rounded-full">
+                <Image
+                  src={"/images/bag-2.svg"}
+                  width={20}
+                  height={20}
+                  alt="cart"
+                  unoptimized={true}
+                  className="w-full! h-full! object-cover"
+                />
+              </div>
+              <div className="nav-icon p-[10px] rounded-full">
+                <Image
+                  src={"/images/profile.svg"}
+                  width={20}
+                  height={20}
+                  alt="cart"
+                  unoptimized={true}
+                  className="w-full! h-full! object-cover"
+                />                
+              </div>
               <a
                 href="#"
-                className="flex btn btn-primary font-normal items-center"
+                className="btn btn-primary font-normal items-center px-[27px] py-[10px] rounded-[8px]"
               >
                 Login
               </a>
