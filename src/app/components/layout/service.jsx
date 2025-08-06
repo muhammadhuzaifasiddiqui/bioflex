@@ -35,7 +35,7 @@ const Service = () => {
                 professionals.
               </p>
               <div className="pt-6 md:pt-8 lg:pt-10">
-                <a class="btn inline-block px-[26px] py-[9px] rounded-[12px]" href="#">
+                <a className="btn inline-block px-[26px] py-[9px] rounded-[12px]" href="#">
                   View All Treatments
                 </a>
               </div>

@@ -29,13 +29,125 @@ const Products = () => {
                 home.
               </p>
               <div className="mt-6 md:mt-8 lg:mt-10">
-                <a className="btn inline-block px-[24px] py-[10px] rounded-[12px]" href="/products">
+                <a
+                  className="btn inline-block px-[24px] py-[10px] rounded-[12px]"
+                  href="/products"
+                >
                   Explore Our Product Line
                 </a>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5 md:gap-y-6 pt-10 md:pt-13 lg:pt-15">
+              <a
+                className="product-card cursor-pointer flex flex-col h-full"
+                href="/products/spf-60-sunblock"
+              >
+                <div className="img-wrapper overflow-hidden">
+                  <Image
+                    src={"/images/Sunblock.webp"}
+                    width={400}
+                    height={442}
+                    alt="logo"
+                    unoptimized={true}
+                    className="w-full h-full object-cover rounded-[20px]"
+                  />
+                </div>
+                <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
+                  <div>
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
+                      SPF 60 Sunblock
+                    </h4>
+                    <div className="flex items-center gap-2.5 mt-2.5">
+                      <p className="text-grey font-normal fs-18">Details</p>
+                      <Image
+                        src={"/images/Arrow Right.png"}
+                        width={20}
+                        height={20}
+                        alt="logo"
+                        unoptimized={true}
+                        className="w-full h-full object-cover rounded-br-[20px]"
+                      />
+                    </div>
+                  </div>
+                  <p className="min-w-fit fs-35 font-nineties text-dark line-clamp-1 font-behindthetineties">
+                    3500 PKR
+                  </p>
+                </div>
+              </a>
 
+              <a
+                className="product-card cursor-pointer flex flex-col h-full"
+                href="/products/spf-60-sunblock"
+              >
+                <div className="img-wrapper overflow-hidden">
+                  <Image
+                    src={"/images/Spray-2.webp"}
+                    width={400}
+                    height={442}
+                    alt="logo"
+                    unoptimized={true}
+                    className="w-full h-full object-cover rounded-[20px]"
+                  />
+                </div>
+                <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
+                  <div>
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
+                      Acivo Hydrating Moisturizer Spray
+                    </h4>
+                    <div className="flex items-center gap-2.5 mt-2.5">
+                      <p className="text-grey font-normal fs-18">Details</p>
+                      <Image
+                        src={"/images/Arrow Right.png"}
+                        width={20}
+                        height={20}
+                        alt="logo"
+                        unoptimized={true}
+                        className="w-full h-full object-cover rounded-br-[20px]"
+                      />
+                    </div>
+                  </div>
+                  <p className="min-w-fit fs-35 font-nineties text-dark line-clamp-1 font-behindthetineties">
+                    2850 PKR
+                  </p>
+                </div>
+              </a>
+
+              <a
+                className="product-card cursor-pointer flex flex-col h-full"
+                href="/products/spf-60-sunblock"
+              >
+                <div className="img-wrapper overflow-hidden">
+                  <Image
+                    src={"/images/Spray-2.webp"}
+                    width={400}
+                    height={442}
+                    alt="logo"
+                    unoptimized={true}
+                    className="w-full h-full object-cover rounded-[20px]"
+                  />
+                </div>
+                <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
+                  <div>
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
+                      Hair Growth Serum Spray
+                    </h4>
+                    <div className="flex items-center gap-2.5 mt-2.5">
+                      <p className="text-grey font-normal fs-18">Details</p>
+                      <Image
+                        src={"/images/Arrow Right.png"}
+                        width={20}
+                        height={20}
+                        alt="logo"
+                        unoptimized={true}
+                        className="w-full h-full object-cover rounded-br-[20px]"
+                      />
+                    </div>
+                  </div>
+                  <p className="min-w-fit fs-35 font-nineties text-dark line-clamp-1 font-behindthetineties">
+                    4000 PKR
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
