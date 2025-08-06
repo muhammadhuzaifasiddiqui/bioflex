@@ -102,27 +102,54 @@ h4 {
   padding-bottom: 80px;
 }
 
-/* header */
-.bg-navbar {
-  background: #f4ede480;
+.btn{
+  color: #ffff;
+  background: #911e3d;
+  font-size: 18px;
+  font-weight: 500;
 }
+
+.btn-primary {
+  font-size: 14px !important;
+}
+
+/* header */
 
 .Logo {
   font-size: 20px;
 }
 
-.navbar-section {
-    z-index: 100;
-    width: calc(100% - 100px);
-    margin: auto;
-    transition: all .2s ease-in-out;
-    position: fixed;
-    top: 40px;
-    left: 0;
-    right: 0;
+.navbar {
+  z-index: 100;
+  width: calc(100% - 100px);
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
 }
 
+.navbar .nav-container {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #f4ede480;
+  border-radius: 10px;
+  max-width: 1140px;
+  padding: 8px 20px;
+  box-shadow: 0 0 24px #00000026;
+}
 
+.navbar .nav-link.active,
+.navbar-section .nav-link:hover {
+  color: #911e3d;
+  font-weight: 400;
+}
+
+.navbar .nav-link {
+  padding: 10px 6px;
+  transition: all 0.2s;
+}
 /* hero section */
 
 /* service section */

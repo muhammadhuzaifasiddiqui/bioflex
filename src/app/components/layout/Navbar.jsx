@@ -9,12 +9,12 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <nav className="navbar navbar-section absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
-        <div className="container mx-auto relative left-0">
-          <div className="bg-navbar flex justify-between items-center rounded-[30px] py-1.5 pr-2.5 pl-5">
+      <nav className="navbar absolute w-full left-0">
+        <div className="nav-container container mx-auto relative left-0">
+          <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="Logo-wrapper">
               <Image
-                src={"/images/HM Properties.png"}
+                src={"/images/logo.svg"}
                 width={151}
                 height={23}
                 alt="logo"
@@ -22,43 +22,36 @@ const Navbar = () => {
                 className="w-full! h-full! object-cover"
               />
             </div>
-
-            <div className="lg:flex hidden navbar-menu gap-x-7.5 text-white">
-              <a className="fs-18" href="#">
+            <div className="lg:flex hidden navbar-menu gap-8">
+              <a className="fs-16 nav-link fw-normal active" href="#">
                 Home
               </a>
-              <a className="fs-18" href="#">
-                Product
-              </a>
-              <a className="fs-18" href="#">
-                Services
-              </a>
-              <a className="fs-18" href="#">
+              <a className="fs-16 nav-link font-normal" href="#">
                 About
               </a>
-              <a className="fs-18" href="#">
-                Reviews
+              <a className="fs-16 nav-link font-normal" href="#">
+                Services
+              </a>
+              <a className="fs-16 nav-link font-normal" href="#">
+                Products
+              </a>
+              <a className="fs-16 nav-link font-normal" href="#">
+                Locations
+              </a>
+              <a className="fs-16 nav-link font-normal" href="#">
+                Articles
               </a>
             </div>
 
-            <div className="lg:flex hidden rounded-[30px] navbar-button py-[1px] pr-[1px] pl-5">
+            <div className="flex rounded-[8px] navbar-button px-[27px] py-[10px]">
               <a
                 href="#"
-                className="flex text-white font-medium items-center gap-x-2.5"
+                className="flex btn btn-primary font-normal items-center"
               >
-                Contact us
-                <div className="h-12.5 w-12.54 aspect-square rounded-full bg-white p-4.5">
-                  <Image
-                    src={"/images/Arrow 1.png"}
-                    width={20}
-                    height={20}
-                    alt="location"
-                    unoptimized={true}
-                    className="w-full! h-full! object-cover"
-                  />
-                </div>
+                Login
               </a>
             </div>
+
             <div className="lg:hidden flex items-center">
               <button
                 onClick={toggleMenu}
@@ -92,7 +85,7 @@ const Navbar = () => {
                   height: isOpen ? "auto" : 0,
                 }}
                 exit={{ opacity: 0, height: 0 }}
-                className="lg:hidden absolute top-16 left-0 right-0 z-10 overflow-hidden bg-[#9e9a9ac4] text-white font-medium"
+                className="lg:hidden absolute top-16 left-0 right-0 z-10 overflow-hidden bg-[#9e9a9ac4] font-medium"
               >
                 <ul className="flex flex-col items-start p-6 rounded-md overflow-hidden">
                   <li className="my-4">
@@ -110,7 +103,7 @@ const Navbar = () => {
                       className={""}
                       onClick={() => setIsOpen(false)}
                     >
-                      Product
+                      About
                     </Link>
                   </li>
                   <li className="my-4">
@@ -128,7 +121,7 @@ const Navbar = () => {
                       className={""}
                       onClick={() => setIsOpen(false)}
                     >
-                      About
+                      Products
                     </Link>
                   </li>
                   <li className="my-4">
@@ -137,7 +130,16 @@ const Navbar = () => {
                       className={""}
                       onClick={() => setIsOpen(false)}
                     >
-                      Reviews
+                      Locations
+                    </Link>
+                  </li>
+                  <li className="my-4">
+                    <Link
+                      href={"/"}
+                      className={""}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Articles
                     </Link>
                   </li>
                 </ul>
