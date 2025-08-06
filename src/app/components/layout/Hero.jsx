@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] text-center lg:text-start">
-                <h1 className="font-nineties text-secondary-light font-behindthetineties">
+                <h1 className="font-nineties font-normal leading-[92%] text-secondary-light font-behindthetineties">
                   The Best
                   <span className="text-primary italic font-medium">
                     {" "}
@@ -69,7 +69,7 @@ const Hero = () => {
                         </div>
                         <div className="w-full">
                           <input
-                            class="fs-18 w-full form-control font-normal"
+                            className="fs-18 w-full form-control font-normal"
                             type="tel"
                             placeholder="Contact Number"
                             name="phone"
