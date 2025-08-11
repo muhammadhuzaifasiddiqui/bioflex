@@ -4,6 +4,7 @@ import Hero from "../components/layout/Hero";
 import Service from "../components/layout/Service";
 import Products from "../components/layout/Products";
 import Trusted from "../components/layout/Trusted";
+import Blog from "../components/layout/Blog";
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Service />
       <Products />
       <Trusted/>
+      <Blog/>
     </>
   );
 };
