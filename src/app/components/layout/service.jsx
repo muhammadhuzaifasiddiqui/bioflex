@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-// import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 
 const Service = () => {
@@ -39,7 +39,7 @@ const Service = () => {
                   View All Treatments
                 </a>
               </div>
-            </div>
+            </div>                                               
           </div>
           <div className="pt-80">
             
