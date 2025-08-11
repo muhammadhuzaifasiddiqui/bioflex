@@ -3,10 +3,22 @@
 body {
   font-size: 16px;
   font-weight: 300;
-  font-family: "Poppins","Poppins Fallback";
+  font-family: "Poppins", "Poppins Fallback";
   color: #8a8a8a;
   background: url(/images/Noise-&-Texture.png) no-repeat 50%;
   background-size: cover;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
 }
 
 img {
@@ -83,8 +95,8 @@ h4 {
   color: #666;
 }
 
-.text-gold{
-  color:#c38a3e;
+.text-gold {
+  color: #c38a3e;
 }
 
 .bg-primary {
@@ -171,72 +183,89 @@ h4 {
 }
 
 .book-appointment-container {
-    position: relative;
-    padding: 30px 20px;
-    border-radius: 20px;
-    backdrop-filter: blur(6.5px);
-    background-color: #ffffff80;
-    z-index: 2;
+  position: relative;
+  padding: 30px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(6.5px);
+  background-color: #ffffff80;
+  z-index: 2;
 }
 
 .book-appointment-container:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 20px;
-    border: 1px solid transparent;
-    background: linear-gradient(98.75deg, rgba(255, 255, 255, .5), rgba(222, 174, 109, .5) 99.67%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background: linear-gradient(
+      98.75deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(222, 174, 109, 0.5) 99.67%
+    )
+    border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 .form-control {
-    color: #1f1f1f;
-    background-color: #fff;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    border-radius: 10px;
-    padding: 13px 15px;
-    overflow: hidden;
+  color: #1f1f1f;
+  background-color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  padding: 13px 15px;
+  overflow: hidden;
 }
 
 /* service section */
 
 /* product section */
 .product-section {
-    background-color: #F4EDE4;
+  background-color: #f4ede4;
 }
 
-/* .product-card .img-wrapper {
+.product-card .img-wrapper {
     height: 442px;
-} */
+}
+
+.product-card .img-wrapper {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+.product-card .img-wrapper {
+    transition: all .3s ease;
+}
 
 .product-card .card-footer {
-    display: flex;
-    padding: 18px 24px 14px 20px;
-    border-radius: 20px;
-    background-color: #FBFBFB;
-    border: 1px solid #eaeaea;
+  display: flex;
+  padding: 18px 24px 14px 20px;
+  border-radius: 20px;
+  background-color: #fbfbfb;
+  border: 1px solid #eaeaea;
 }
 
 
 /* trusted section */
 .counter-wrapper {
-    width: 100%;
-    padding: 18px;
-    color: #1f1f1f;
-    border: 1px solid #e8e8e8;
-    border-radius: 18px;
-    background-color: #FFFFFF33;
-    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .15);
-    backdrop-filter: blur(5px);
+  width: 100%;
+  padding: 18px;
+  color: #1f1f1f;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  background-color: #ffffff33;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
 }
-
 
 /* blog Section */
 

@@ -18,7 +18,7 @@ const Products = () => {
               </p>
               <h2 className="font-behindthetineties text-secondary-light mt-6 font-medium leading-[92%]">
                 Skincare{" "}
-                <span class="text-primary italic font-light">Products</span>{" "}
+                <span className="text-primary italic font-light">Products</span>{" "}
                 That Support Real
                 <span className="text-primary italic"> Results</span>
               </h2>
@@ -49,7 +49,7 @@ const Products = () => {
                     height={442}
                     alt="logo"
                     unoptimized={true}
-                    className="w-full h-full object-cover rounded-[20px]"
+                    className="w-full! h-full! object-cover rounded-[20px]"
                   />
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
@@ -86,7 +86,7 @@ const Products = () => {
                     height={442}
                     alt="logo"
                     unoptimized={true}
-                    className="w-full h-full object-cover rounded-[20px]"
+                    className="w-full! h-full! object-cover rounded-[20px]"
                   />
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
@@ -123,7 +123,7 @@ const Products = () => {
                     height={442}
                     alt="logo"
                     unoptimized={true}
-                    className="w-full h-full object-cover rounded-[20px]"
+                    className="w-full! h-full! object-cover rounded-[20px]"
                   />
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">

@@ -31,7 +31,7 @@ const Trusted = () => {
                   </p>
                 </div>
               </div>
-              <div class="grid grid-cols-3  gap-2.5 mt-[30px]">
+              <div className="grid grid-cols-3  gap-2.5 mt-[30px]">
                 <div className="counter-wrapper">
                   <p className="fs-35">
                     <span>15</span>+
