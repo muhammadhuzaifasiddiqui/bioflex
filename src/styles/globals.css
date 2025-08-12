@@ -9,22 +9,16 @@ body {
   background-size: cover;
 }
 
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    margin: 0;
-    padding: 0;
-    border: 0 solid;
-  }
-}
-
 img {
   width: auto;
   height: auto;
   max-width: 100%;
+}
+
+a {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
 }
 
 .font-behindthetineties {
@@ -223,6 +217,118 @@ h4 {
 }
 
 /* service section */
+.swiper-horizontal {
+  touch-action: pan-y;
+}
+
+.swiper-android .swiper-slide,
+.swiper-ios .swiper-slide,
+.swiper-wrapper {
+  transform: translateZ(0);
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(
+      --swiper-wrapper-transition-timing-function,
+      initial
+    )
+    --swiper-wrapper-transition-timing-function is not defined;
+  box-sizing: content-box;
+  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  transition-delay: 0ms;
+  justify-content:center;
+}
+
+.swiper-backface-hidden .swiper-slide {
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+
+.product-card .img-wrapper,
+.service-card .img-wrapper {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+.product-card .img-wrapper img,
+.service-card .img-wrapper img {
+  transition: all 0.3s ease;
+}
+
+.btn.btn-lg.btn-circle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ffffff80;
+}
+
+.btn.btn-lg {
+  padding: 14px 30px;
+  border-radius: 10px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 9px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ms-auto {
+  margin-inline-start: auto;
+}
+
+.tag {
+  color: white;
+  padding: 5px 18px;
+  border-radius: 20px;
+  background-color: #00000033;
+}
+
+.line-clamp-1,
+.line-clamp-2 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
 
 /* product section */
 .product-section {
@@ -230,20 +336,20 @@ h4 {
 }
 
 .product-card .img-wrapper {
-    height: 442px;
+  height: 442px;
 }
 
 .product-card .img-wrapper {
-    width: 100%;
-    height: 500px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-    background-color: #fff;
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
 }
 
 .product-card .img-wrapper {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .product-card .card-footer {
@@ -253,7 +359,6 @@ h4 {
   background-color: #fbfbfb;
   border: 1px solid #eaeaea;
 }
-
 
 /* trusted section */
 .counter-wrapper {
@@ -268,44 +373,16 @@ h4 {
 }
 
 /* blog Section */
-.swiper-horizontal {
-    touch-action: pan-y;
+.ratio-16x9 {
+    aspect-ratio: 16 / 9;
 }
 
-.swiper {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.blog-section .blog-swiper .img-wrapper {
     overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-    display: block;
-}
-
-.swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper {
-    transform: translateZ(0);
-}
-
-.swiper-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
-    box-sizing: content-box;
-    transition-duration: 0ms;
-    transform: translate3d(0px, 0px, 0px);
-    transition-delay: 0ms;    
 }
 
 
 /* width: 1280px; margin-right: 50px; */
-
-
-
 
 /* services-swiper-section */
 
