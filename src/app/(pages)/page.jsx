@@ -5,6 +5,9 @@ import Products from "../components/layout/Products";
 import Trusted from "../components/layout/Trusted";
 import Blog from "../components/layout/Blog";
 import Service from "../components/layout/Service";
+import Book from "../components/layout/Book";
+import Contact from "../components/layout/Contact";
+import Footer from "../components/layout/Footer";
 
 const page = () => {
   return (
@@ -15,6 +18,9 @@ const page = () => {
       <Products />
       <Trusted/>
       <Blog/>
+      <Book />
+      <Contact />
+      <Footer />
     </>
   );
 };

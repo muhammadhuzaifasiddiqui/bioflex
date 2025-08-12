@@ -31,8 +31,8 @@ const Service = () => {
                 <p className="font-light">
                   As a trusted aesthetic clinic in Pakistan, BioFlex Aesthetics
                   provides personalized care in a comfortable, hygienic
-                  environment. Every treatment is tailored to your skin’s needs —
-                  using the latest technology and performed by skilled
+                  environment. Every treatment is tailored to your skin’s needs
+                  — using the latest technology and performed by skilled
                   professionals.
                 </p>
                 <div className="pt-6 md:pt-8 lg:pt-10">
@@ -73,7 +73,9 @@ const Service = () => {
                           <div className="flex flex-wrap gap-1">
                             <div className="tag">1 Session per month</div>
                             <div className="tag">3 Session</div>
-                            <div className="tag">Prices Starting form 12000 PKR</div>
+                            <div className="tag">
+                              Prices Starting form 12000 PKR
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -82,36 +84,34 @@ const Service = () => {
                           Exosome Therapy for Hair Loss
                         </h4>
                         <p className="line-clamp-2 mt-1">
-                          <p>
-                            <b>
-                              Stimulating hair regrowth with dissolvable threads.
-                            </b>
-                            “Threads for hair” refers to a treatment where tiny
-                            absorbable threads (usually made of PDO –
-                            Polydioxanone, a material used in surgical sutures)
-                            are inserted into the scalp to combat hair loss. PDO
-                            scalp threading, also known as hair threading therapy,
-                            is a minimally invasive procedure originally adapted
-                            from facial thread lifts. The concept is simple:
-                            dozens of very fine threads are placed just under the
-                            scalp skin in areas of thinning. These threads create
-                            a supportive mesh and cause a controlled
-                            “micro-injury” that triggers the body’s healing
-                            response. In doing so, they increase blood flow,
-                            collagen, and growth factors around hair follicles.
-                            Over the next 6–8 months, the threads slowly dissolve,
-                            but during that time they continuously stimulate the
-                            scalp – essentially “tricking” it into rejuvenation
-                            mode. The result is stronger, thicker hair growth in
-                            those areas. Our clinic performs PDO hair threading
-                            using FDA-approved threads and a proprietary technique
-                            from Canada to ensure precision and safety. This
-                            therapy is an excellent non-surgical hair restoration
-                            option for those who want to boost hair density
-                            naturally. It can be used alone or in combination with
-                            PRP and other treatments for
-                            <b>best-in-class results in Pakistan.</b>
-                          </p>
+                          <b>
+                            Stimulating hair regrowth with dissolvable threads.
+                          </b>
+                          “Threads for hair” refers to a treatment where tiny
+                          absorbable threads (usually made of PDO –
+                          Polydioxanone, a material used in surgical sutures)
+                          are inserted into the scalp to combat hair loss. PDO
+                          scalp threading, also known as hair threading therapy,
+                          is a minimally invasive procedure originally adapted
+                          from facial thread lifts. The concept is simple:
+                          dozens of very fine threads are placed just under the
+                          scalp skin in areas of thinning. These threads create
+                          a supportive mesh and cause a controlled
+                          “micro-injury” that triggers the body’s healing
+                          response. In doing so, they increase blood flow,
+                          collagen, and growth factors around hair follicles.
+                          Over the next 6–8 months, the threads slowly dissolve,
+                          but during that time they continuously stimulate the
+                          scalp – essentially “tricking” it into rejuvenation
+                          mode. The result is stronger, thicker hair growth in
+                          those areas. Our clinic performs PDO hair threading
+                          using FDA-approved threads and a proprietary technique
+                          from Canada to ensure precision and safety. This
+                          therapy is an excellent non-surgical hair restoration
+                          option for those who want to boost hair density
+                          naturally. It can be used alone or in combination with
+                          PRP and other treatments for
+                          <b>best-in-class results in Pakistan.</b>
                         </p>
                       </div>
                     </a>
@@ -141,7 +141,9 @@ const Service = () => {
                           <div className="flex flex-wrap gap-1">
                             <div className="tag">1 Session per month</div>
                             <div className="tag">3 Session</div>
-                            <div className="tag">Prices Starting form 12000 PKR</div>
+                            <div className="tag">
+                              Prices Starting form 12000 PKR
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -150,40 +152,38 @@ const Service = () => {
                           Exosome Therapy for Hair Loss
                         </h4>
                         <p className="line-clamp-2 mt-1">
-                          <p>
-                            <b>
-                              Stimulating hair regrowth with dissolvable threads.
-                            </b>
-                            “Threads for hair” refers to a treatment where tiny
-                            absorbable threads (usually made of PDO –
-                            Polydioxanone, a material used in surgical sutures)
-                            are inserted into the scalp to combat hair loss. PDO
-                            scalp threading, also known as hair threading therapy,
-                            is a minimally invasive procedure originally adapted
-                            from facial thread lifts. The concept is simple:
-                            dozens of very fine threads are placed just under the
-                            scalp skin in areas of thinning. These threads create
-                            a supportive mesh and cause a controlled
-                            “micro-injury” that triggers the body’s healing
-                            response. In doing so, they increase blood flow,
-                            collagen, and growth factors around hair follicles.
-                            Over the next 6–8 months, the threads slowly dissolve,
-                            but during that time they continuously stimulate the
-                            scalp – essentially “tricking” it into rejuvenation
-                            mode. The result is stronger, thicker hair growth in
-                            those areas. Our clinic performs PDO hair threading
-                            using FDA-approved threads and a proprietary technique
-                            from Canada to ensure precision and safety. This
-                            therapy is an excellent non-surgical hair restoration
-                            option for those who want to boost hair density
-                            naturally. It can be used alone or in combination with
-                            PRP and other treatments for
-                            <b>best-in-class results in Pakistan.</b>
-                          </p>
+                          <b>
+                            Stimulating hair regrowth with dissolvable threads.
+                          </b>
+                          “Threads for hair” refers to a treatment where tiny
+                          absorbable threads (usually made of PDO –
+                          Polydioxanone, a material used in surgical sutures)
+                          are inserted into the scalp to combat hair loss. PDO
+                          scalp threading, also known as hair threading therapy,
+                          is a minimally invasive procedure originally adapted
+                          from facial thread lifts. The concept is simple:
+                          dozens of very fine threads are placed just under the
+                          scalp skin in areas of thinning. These threads create
+                          a supportive mesh and cause a controlled
+                          “micro-injury” that triggers the body’s healing
+                          response. In doing so, they increase blood flow,
+                          collagen, and growth factors around hair follicles.
+                          Over the next 6–8 months, the threads slowly dissolve,
+                          but during that time they continuously stimulate the
+                          scalp – essentially “tricking” it into rejuvenation
+                          mode. The result is stronger, thicker hair growth in
+                          those areas. Our clinic performs PDO hair threading
+                          using FDA-approved threads and a proprietary technique
+                          from Canada to ensure precision and safety. This
+                          therapy is an excellent non-surgical hair restoration
+                          option for those who want to boost hair density
+                          naturally. It can be used alone or in combination with
+                          PRP and other treatments for
+                          <b>best-in-class results in Pakistan.</b>
                         </p>
                       </div>
                     </a>
-                  </div>      
+                  </div>
                   <div className="swiper-slide swiper-slide-active w-[413.333px]! mr-[20px]!">
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
@@ -209,7 +209,9 @@ const Service = () => {
                           <div className="flex flex-wrap gap-1">
                             <div className="tag">1 Session per month</div>
                             <div className="tag">3 Session</div>
-                            <div className="tag">Prices Starting form 12000 PKR</div>
+                            <div className="tag">
+                              Prices Starting form 12000 PKR
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -218,40 +220,38 @@ const Service = () => {
                           Exosome Therapy for Hair Loss
                         </h4>
                         <p className="line-clamp-2 mt-1">
-                          <p>
-                            <b>
-                              Stimulating hair regrowth with dissolvable threads.
-                            </b>
-                            “Threads for hair” refers to a treatment where tiny
-                            absorbable threads (usually made of PDO –
-                            Polydioxanone, a material used in surgical sutures)
-                            are inserted into the scalp to combat hair loss. PDO
-                            scalp threading, also known as hair threading therapy,
-                            is a minimally invasive procedure originally adapted
-                            from facial thread lifts. The concept is simple:
-                            dozens of very fine threads are placed just under the
-                            scalp skin in areas of thinning. These threads create
-                            a supportive mesh and cause a controlled
-                            “micro-injury” that triggers the body’s healing
-                            response. In doing so, they increase blood flow,
-                            collagen, and growth factors around hair follicles.
-                            Over the next 6–8 months, the threads slowly dissolve,
-                            but during that time they continuously stimulate the
-                            scalp – essentially “tricking” it into rejuvenation
-                            mode. The result is stronger, thicker hair growth in
-                            those areas. Our clinic performs PDO hair threading
-                            using FDA-approved threads and a proprietary technique
-                            from Canada to ensure precision and safety. This
-                            therapy is an excellent non-surgical hair restoration
-                            option for those who want to boost hair density
-                            naturally. It can be used alone or in combination with
-                            PRP and other treatments for
-                            <b>best-in-class results in Pakistan.</b>
-                          </p>
+                          <b>
+                            Stimulating hair regrowth with dissolvable threads.
+                          </b>
+                          “Threads for hair” refers to a treatment where tiny
+                          absorbable threads (usually made of PDO –
+                          Polydioxanone, a material used in surgical sutures)
+                          are inserted into the scalp to combat hair loss. PDO
+                          scalp threading, also known as hair threading therapy,
+                          is a minimally invasive procedure originally adapted
+                          from facial thread lifts. The concept is simple:
+                          dozens of very fine threads are placed just under the
+                          scalp skin in areas of thinning. These threads create
+                          a supportive mesh and cause a controlled
+                          “micro-injury” that triggers the body’s healing
+                          response. In doing so, they increase blood flow,
+                          collagen, and growth factors around hair follicles.
+                          Over the next 6–8 months, the threads slowly dissolve,
+                          but during that time they continuously stimulate the
+                          scalp – essentially “tricking” it into rejuvenation
+                          mode. The result is stronger, thicker hair growth in
+                          those areas. Our clinic performs PDO hair threading
+                          using FDA-approved threads and a proprietary technique
+                          from Canada to ensure precision and safety. This
+                          therapy is an excellent non-surgical hair restoration
+                          option for those who want to boost hair density
+                          naturally. It can be used alone or in combination with
+                          PRP and other treatments for
+                          <b>best-in-class results in Pakistan.</b>
                         </p>
                       </div>
                     </a>
-                  </div>                                 
+                  </div>
                 </div>
               </div>
             </div>

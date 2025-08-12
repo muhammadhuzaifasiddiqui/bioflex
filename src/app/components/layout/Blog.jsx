@@ -14,10 +14,10 @@ const Blog = () => {
           <div>
             <div className="flex flex-col lg:flex-row justify-between gap-y-[20px] lg:pb-12">
               <div className="w-full lg:w-1/2">
-                <h2 className="font-nineties text-secondary-light">Insights &amp; Tips for Your <span class="text-primary italic">Skincare</span> Journey</h2>
+                <h2 className="font-behindthetineties text-secondary-light">Insights &amp; Tips for Your <span className="text-primary italic">Skincare</span> Journey</h2>
               </div>
-              <div class="w-full lg:w-[42%]">
-                <p class="fs-16 text-justify">
+              <div className="w-full lg:w-[42%]">
+                <p className="fs-16 text-justify">
                   Stay informed with our latest articles on skincare treatments, aesthetic trends, and expert advice to help you make informed decisions.
                 </p>
               </div>
