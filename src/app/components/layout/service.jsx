@@ -120,7 +120,7 @@ const Service = () => {
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
                         <Image
-                          src={"/images/Exosome-Therapy.webp"}
+                          src={"/images/EMS.webp"}
                           width={401}
                           height={500}
                           alt="Exosome-Therapy"
@@ -149,11 +149,11 @@ const Service = () => {
                       </div>
                       <div className="pt-4">
                         <h4 className="line-clamp-1 text-secondary-dark font-medium">
-                          Exosome Therapy for Hair Loss
+                          EMS
                         </h4>
                         <p className="line-clamp-2 mt-1">
                           <b>
-                            Stimulating hair regrowth with dissolvable threads.
+                            Electromagnetic muscle stimulation to burn fat and build muscle.
                           </b>
                           “Threads for hair” refers to a treatment where tiny
                           absorbable threads (usually made of PDO –
@@ -188,7 +188,7 @@ const Service = () => {
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
                         <Image
-                          src={"/images/Exosome-Therapy.webp"}
+                          src={"/images/RF-BODY-1.webp"}
                           width={401}
                           height={500}
                           alt="Exosome-Therapy"
@@ -217,11 +217,11 @@ const Service = () => {
                       </div>
                       <div className="pt-4">
                         <h4 className="line-clamp-1 text-secondary-dark font-medium">
-                          Exosome Therapy for Hair Loss
+                          RF (BODY)
                         </h4>
                         <p className="line-clamp-2 mt-1">
                           <b>
-                            Stimulating hair regrowth with dissolvable threads.
+                            Radiofrequency treatment for fat reduction and skin tightening.
                           </b>
                           “Threads for hair” refers to a treatment where tiny
                           absorbable threads (usually made of PDO –
