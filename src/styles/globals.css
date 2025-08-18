@@ -442,7 +442,7 @@ h4 {
     background-color: #EDEDED;
 }
 
-.form-control {;
+.form-control {
     white-space: nowrap;
     text-overflow: ellipsis;
     border-radius: 10px;
@@ -483,6 +483,9 @@ button, input, optgroup, select, textarea {
 .footer-section .bottom-row {
     padding-top: 30px;
 }
+
+
+
 
 
 
