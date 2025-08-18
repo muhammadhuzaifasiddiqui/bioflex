@@ -8,6 +8,7 @@ import Service from "../components/layout/Service";
 import Book from "../components/layout/Book";
 import Contact from "../components/layout/Contact";
 import Footer from "../components/layout/Footer";
+import CustomSwiper from "../components/layout/CustomSwiper";
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
       <Products />
       <Trusted/>
       <Blog/>
+      <CustomSwiper />
       <Book />
       <Contact />
       <Footer />
