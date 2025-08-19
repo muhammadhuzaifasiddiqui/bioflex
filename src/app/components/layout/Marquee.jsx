@@ -20,7 +20,7 @@ const Marquee = () => {
       title: "Asthetic",
       img: "/images/Aesthetic.webp",
       alt: "Aesthetic",
-    },    
+    },
     {
       id: 3,
       title: "Skin-Care",
@@ -52,6 +52,9 @@ const Marquee = () => {
               delay: 0, // Delay between slides
               disableOnInteraction: false,
             }}
+            draggable={false}
+            // onTouchMove={false}
+            allowTouchMove={false}
             dir="ltr"
             speed={3000}
             slidesPerView={"auto"}
@@ -86,6 +89,7 @@ const Marquee = () => {
               delay: 0, // Delay between slides
               disableOnInteraction: false,
             }}
+            allowTouchMove={false}
             dir="rtl"
             speed={3000}
             slidesPerView={"auto"}
