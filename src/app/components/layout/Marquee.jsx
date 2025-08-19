@@ -43,7 +43,7 @@ const Marquee = () => {
 
   return (
     <>
-      <section className="blog-section">
+      <section className="marquee-section">
         <div className="flex flex-row">
           <Swiper
             modules={[Autoplay]}
@@ -63,16 +63,18 @@ const Marquee = () => {
               <SwiperSlide key={index} className="w-fit!">
                 <div className="flex items-center gap-2.5 px-1.5">
                   <div className="inline-block">
-                    <h2 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
+                    <h3 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
                       {item.title}
-                    </h2>
+                    </h3>
                   </div>
-                  <div>
+                  <div className="img-wrapper">
                     <Image
                       src={item.img}
                       width={210}
                       height={200}
                       alt={item.alt}
+                      unoptimized={true}
+                      className="w-full! h-full! object-cover rounded-[10px]"
                     />
                   </div>
                 </div>
@@ -97,18 +99,20 @@ const Marquee = () => {
             {treatment.map((item, index) => (
               <SwiperSlide key={index} className="w-fit!">
                 <div className="flex items-center gap-2.5 px-1.5">
-                  <div>
+                  <div className="img-wrapper">
                     <Image
                       src={item.img}
                       width={210}
                       height={200}
                       alt={item.alt}
+                      unoptimized={true}
+                      className="w-full! h-full! object-cover rounded-[10px]"
                     />
                   </div>
                   <div className="inline-block">
-                    <h2 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
+                    <h3 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
                       {item.title}
-                    </h2>
+                    </h3>
                   </div>
                 </div>
               </SwiperSlide>

@@ -348,6 +348,17 @@ h5 {
   background-color: #911e3d;
 }
 
+.marquee-section .img-wrapper {
+  width: 210px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.marquee-section h3{
+  font-size: 80px;
+}
+
+
 /* services-swiper-section */
 
 /* book-now-section */
