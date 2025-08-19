@@ -1,12 +1,10 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
-import { AnimatePresence, motion } from "motion/react";
-import Link from "next/link";
+import React  from "react";
+
 
 const Service = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => setIsOpen(!isOpen);
+ 
   return (
     <>
       <section className="service-section overflow-hidden">

@@ -9,14 +9,14 @@ import Book from "../components/layout/Book";
 import Contact from "../components/layout/Contact";
 import Footer from "../components/layout/Footer";
 import Marquee from "../components/layout/Marquee";
-import Service from "../components/layout/Service";
+// import Service from "../components/layout/Service";
 
 const page = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Service />
+      {/* <Service /> */}
       <Products />
       <Trusted />
       <Blog />
