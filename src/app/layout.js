@@ -45,24 +45,24 @@ const behindthenineties = localFont({
       style: "italic",
     },
   ],
-  variable: "font-behindthetineties",
+  variable: "--font-behind-nineties",
   display: "swap",
 });
 
 const inter = Inter({
-  variable: "font-inter",
+  variable: "--font-inter",
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
 const poppins = Poppins({
-  variable: "font-poppins",
+  variable: "--font-poppins",
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
 const montserrat = Montserrat({
-  variable: "font-montserrat",
+  variable: "--font-montserrat",
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${poppins.variable} ${montserrat.variable} ${behindthenineties.variable} antialiased`}
+        className={`${inter.variable} ${poppins.variable} ${montserrat.variable} ${behindthenineties.variable} `}
       >
         {children}
       </body>

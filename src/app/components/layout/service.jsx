@@ -47,7 +47,7 @@ const Service = () => {
             </div>
             <div className="pt-20">
               <div className="swiper swiper-initialized swiper-horizontal w-full swiper-backface-hidden">
-                <div className="swiper-wrapper">
+                <div className="swiper-wrapper justify-center">
                   <div className="swiper-slide swiper-slide-active w-[413.333px]! mr-[20px]!">
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">

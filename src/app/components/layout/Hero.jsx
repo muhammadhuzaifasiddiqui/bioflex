@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] text-center lg:text-start">
-                <h1 className="font-nineties font-normal leading-[92%] text-secondary-light font-behindthetineties">
+                <h1 className="font-nineties font-normal leading-[90%] text-secondary-light font-behindthetineties">
                   The Best
                   <span className="text-primary italic font-medium">
                     {" "}
@@ -52,8 +52,8 @@ const Hero = () => {
                   unoptimized={true}
                   className="w-full h-full lg:w-auto relative lg:absolute end-0 bottom-0 mx-auto object-cover rounded-br-[20px]"
                 />
-                <div className="scroll-mt-[300px] book-appointment-container mt-[24px] lg:mt-[50px] mb-[20px] lg:mb-[44px] ">
-                  <h4 className="text-dark font-medium text-start">
+                <div className="scroll-mt-[300px] book-appointment-container  mt-[24px] lg:mt-[50px] mb-[20px] lg:mb-[44px] ">
+                  <h4 className="text-dark font-medium text-start mb-2.5 leading-[50%]">
                     Book a Free Appointment
                   </h4>
                   <form>
