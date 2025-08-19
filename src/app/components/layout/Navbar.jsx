@@ -1,12 +1,35 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scroll, setScrolled] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const navbar = document.querySelector(".navbar");
+    let lastScrollState = false; // Track the current "scroll-down" state
+
+    const handleScroll = () => {
+      if (!navbar) return;
+
+      const shouldAddClass = window.scrollY >= 50;
+
+      // Only update class if state has changed
+      if (shouldAddClass !== lastScrollState) {
+        lastScrollState = shouldAddClass;
+        navbar.classList.toggle("scroll-down", shouldAddClass);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <nav className="navbar absolute w-full left-0">
@@ -62,7 +85,7 @@ const Navbar = () => {
                   alt="cart"
                   unoptimized={true}
                   className="w-full! h-full! object-cover"
-                />                
+                />
               </div>
               <a
                 href="#"
