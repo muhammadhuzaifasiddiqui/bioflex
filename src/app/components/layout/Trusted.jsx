@@ -14,7 +14,7 @@ const Trusted = () => {
           <div className="flex flex-col lg:flex-row justify-between gap-[30px] false">
             <div className="flex flex-col justify-between w-full lg:w-[52%]">
               <div>
-                <h2 className="font-behindthetineties text-secondary-light leading-[92%]">
+                <h2 className="font-behindthetineties text-secondary-light leading-[90%]">
                   Trusted <span className="text-primary italic">Aesthetic</span>
                   Advice, <span className="text-primary italic">Tailored </span>
                   for You
@@ -33,20 +33,20 @@ const Trusted = () => {
               </div>
               <div className="grid grid-cols-3  gap-2.5 mt-[30px]">
                 <div className="counter-wrapper">
-                  <p className="fs-35">
+                  <p className="fs-38 leading-[150%]">
                     <span>15</span>+
                   </p>
-                  <p>Happy Customers</p>
+                  <p className="fs-18">Happy Customers</p>
                 </div>
                 <div className="counter-wrapper">
-                  <p className="fs-35">FDA</p>
-                  <p>Approved Technology</p>
+                  <p className="fs-38 leading-[150%]">FDA</p>
+                  <p className="fs-18">Approved Technology</p>
                 </div>
                 <div className="counter-wrapper">
-                  <p className="fs-35">
+                  <p className="fs-38 leading-[150%]">
                     <span>99</span>%
                   </p>
-                  <p>Satisfaction Rate</p>
+                  <p className="fs-18">Satisfaction Rate</p>
                 </div>
               </div>
             </div>

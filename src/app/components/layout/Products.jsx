@@ -16,9 +16,9 @@ const Products = () => {
               <p className="fs-18 text-gold font-medium underline underline-offset-2">
                 Our Products
               </p>
-              <h2 className="font-behindthetineties text-secondary-light mt-6 font-medium leading-[92%]">
-                Skincare{" "}
-                <span className="text-primary italic font-light">Products</span>{" "}
+              <h2 className="font-behindthetineties text-secondary-light mt-6 leading-[100%]">
+                Skincare
+                <span className="text-primary italic font-light"> Products </span>
                 That Support Real
                 <span className="text-primary italic"> Results</span>
               </h2>
@@ -54,7 +54,7 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
                       SPF 60 Sunblock
                     </h4>
                     <div className="flex items-center gap-2.5 mt-2.5">
@@ -91,8 +91,8 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
-                      Acivo Hydrating Moisturizer Spray
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
+                      Acivo Spray
                     </h4>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>
@@ -128,8 +128,8 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2">
-                      Hair Growth Serum Spray
+                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
+                      Hair Serum
                     </h4>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>

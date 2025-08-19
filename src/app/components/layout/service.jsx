@@ -14,7 +14,7 @@ const Service = () => {
           <div className="flex flex-col">
             <div className="flex flex-col lg:flex-row gap-5 px-4 sm:px-5 md:px-6 lg:px-10">
               <div className="w-full lg:w-[58%]">
-                <h2 className="font-behindthetineties leading-[92%] text-secondary-light font-normal">
+                <h2 className="font-behindthetineties leading-[90%] text-secondary-light font-normal">
                   Your Go-To Aesthetic Clinic in Pakistan for Healthy, Glowing
                   Skin
                 </h2>
@@ -46,9 +46,9 @@ const Service = () => {
               </div>
             </div>
             <div className="pt-20">
-              <div className="swiper swiper-initialized swiper-horizontal w-full swiper-backface-hidden">
-                <div className="swiper-wrapper justify-center">
-                  <div className="swiper-slide swiper-slide-active w-[413.333px]! mr-[20px]!">
+              <div>
+                <div className="flex justify-center">
+                  <div className="w-[413.333px]! mr-[20px]!">
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
                         <Image
@@ -80,10 +80,10 @@ const Service = () => {
                         </div>
                       </div>
                       <div className="pt-4">
-                        <h4 className="line-clamp-1 text-secondary-dark font-medium">
+                        <h4 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
                           Exosome Therapy for Hair Loss
                         </h4>
-                        <p className="line-clamp-2 mt-1">
+                        <p className="line-clamp-2 mt-3">
                           <b>
                             Stimulating hair regrowth with dissolvable threads.
                           </b>
@@ -116,7 +116,7 @@ const Service = () => {
                       </div>
                     </a>
                   </div>
-                  <div className="swiper-slide swiper-slide-active w-[413.333px]! mr-[20px]!">
+                  <div className="w-[413.333px]! mr-[20px]!">
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
                         <Image
@@ -148,10 +148,10 @@ const Service = () => {
                         </div>
                       </div>
                       <div className="pt-4">
-                        <h4 className="line-clamp-1 text-secondary-dark font-medium">
+                        <h4 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
                           EMS
                         </h4>
-                        <p className="line-clamp-2 mt-1">
+                        <p className="line-clamp-2 mt-3">
                           <b>
                             Electromagnetic muscle stimulation to burn fat and build muscle.
                           </b>
@@ -184,7 +184,7 @@ const Service = () => {
                       </div>
                     </a>
                   </div>
-                  <div className="swiper-slide swiper-slide-active w-[413.333px]! mr-[20px]!">
+                  <div className="w-[413.333px]! mr-[20px]!">
                     <a className="service-card" href="#">
                       <div className="img-wrapper overflow-hidden relative h-64">
                         <Image
@@ -216,10 +216,10 @@ const Service = () => {
                         </div>
                       </div>
                       <div className="pt-4">
-                        <h4 className="line-clamp-1 text-secondary-dark font-medium">
+                        <h4 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
                           RF (BODY)
                         </h4>
-                        <p className="line-clamp-2 mt-1">
+                        <p className="line-clamp-2 mt-3">
                           <b>
                             Radiofrequency treatment for fat reduction and skin tightening.
                           </b>

@@ -23,14 +23,14 @@ const Book = () => {
             <div className="relative z-[1]">
               <div className="flex flex-col lg:flex-row justify-between gap-y-6">
                 <div className="w-full lg:w-[60%]">
-                  <h2 className="font-behindthetineties text-secondary-light  text-center lg:text-start">
-                    Your <span className="text-primary italic">Glow-Up</span>
+                  <h2 className="font-behindthetineties text-secondary-light text-center lg:text-start leading-[90%]">
+                    Your <span className="text-primary italic">Glow-Up </span>
                     Begins Without the{" "}
                     <span className="text-primary italic">Price Tag</span>
                   </h2>
                 </div>
                 <div className="w-full lg:w-[38%]">
-                  <p className="fs-16 text-center lg:text-end text-grey-dark">
+                  <p className="fs-16 text-center lg:text-end text-grey-dark leading-[140%]">
                     Experience premium skincare treatments that are both
                     effective and affordable.
                   </p>
