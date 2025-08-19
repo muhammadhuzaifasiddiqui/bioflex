@@ -25,13 +25,13 @@ const Footer = () => {
                                     className="w-full h-full object-cover"
                                 />
                             </a>
-                            <p className="text-secondary-dark pt-4">
+                            <p className="text-secondary-dark pt-4 fs-14">
                                 Trusted aesthetic care powered by Canadian, FDA-approved
                                 technology — available across Pakistan.
                             </p>
                         </div>
                         <div className="lg:hidden w-full lg:w-[18%]">
-                            <h4 className="text-secondary-dark font-normal">Contact Us</h4>
+                            <h5 className="text-secondary-dark font-normal">Contact Us</h5>
                             <div className="flex justify-start gap-5 pt-4">
                                 <a
                                     target="_blank"
@@ -64,8 +64,8 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="w-[50%] lg:w-[20%] pe-8">
-                            <h4 className="text-secondary-dark font-normal">Information</h4>
-                            <ul className="pt-4">
+                            <h5 className="text-secondary-dark font-normal">Information</h5>
+                            <ul className="pt-4 fs-14">
                                 <li>
                                     <Image
                                         src={"/images/Vector 6.svg"}
@@ -124,8 +124,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="w-[50%] lg:w-[20%]">
-                            <h4 className="text-secondary-dark font-normal">Useful Links</h4>
-                            <ul className="pt-4">
+                            <h5 className="text-secondary-dark font-normal">Useful Links</h5>
+                            <ul className="pt-4 fs-14">
                                 <li>
                                     <Image
                                         src={"/images/Vector 6.svg"}
@@ -151,7 +151,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="hidden lg:block w-full lg:w-[18%]">
-                            <h4 className="text-secondary-dark font-normal">Contact Us</h4>
+                            <h5 className="text-secondary-dark font-normal">Contact Us</h5>
                             <div className="flex justify-start gap-5 pt-4">
                                 <a target="_blank" className="social-icon" href="https://www.facebook.com/bioflexaesthetics/">
                                     <Image
@@ -177,9 +177,9 @@ const Footer = () => {
                         </div>    
                     </div>
                     <div className="bottom-row flex flex-wrap gap-x-2 gap-y-1 items-center justify-center">
-                        <p className="fs-16 text-secondary-dark text-center">© 2025 Bioflexaesthetics. All Rights Reserved.</p> 
-                        <p className="fs-16 text-secondary-dark text-center">Designed by   
-                            <a className="text-blue-800 hover:text-blue-900 transition" target="_blank" href="https://nanolixdigital.com">
+                        <p className=" fs-14 text-secondary-dark text-center">© 2025 Bioflexaesthetics. All Rights Reserved.</p> 
+                        <p className=" fs-14 text-secondary-dark text-center">Designed by   
+                            <a className="text-blue-800 hover:text-blue-900 transition fs-14" target="_blank" href="https://nanolixdigital.com">
                                 Nanolix Digital
                             </a>
                         </p>

@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-2 xl:grid-cols-4">
             <div className="item">
-              <h4 className="text-secondary">Call Center</h4>
+              <h5 className="text-secondary">Call Center</h5>
               <div className="flex flex-col pt-2.5">
                 <a
                   className="fs-20 text-dark hover-underline"
@@ -25,10 +25,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="item">
-              <h4 className="text-secondary">E-mail Address</h4>
+              <h5 className="text-secondary">E-mail Address</h5>
               <div className="pt-2.5">
                 <a
-                  className="fs-18 text-dark hover-underline break-all"
+                  className="fs-20 text-dark hover-underline break-all"
                   aria-label="Send an email to info at bioflex aesthetics dot com"
                   href="mailto:info@bioflexaesthetics.com"
                 >
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="item">
-              <h4 className="text-secondary">Our locations</h4>
+              <h5 className="text-secondary">Our locations</h5>
               <div className="flex flex-col pt-2.5">
                 <a
                   target="_blank"
@@ -80,7 +80,7 @@ const Contact = () => {
                   <div className="flex flex-col gap-2.5">
                     <input
                       type="email"
-                      className="w-full form-control fs-18"
+                      className="w-full form-control fs-16"
                       placeholder="Your E-mail Address"
                       name="email"
                     />
