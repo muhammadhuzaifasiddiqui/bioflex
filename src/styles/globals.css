@@ -143,6 +143,12 @@ h5 {
   font-size: 20px;
 }
 
+.nav-container.scrolled {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 2rem;
+}
+
 .navbar {
   z-index: 100;
   width: calc(100% - 100px);
