@@ -6,6 +6,8 @@ body {
   font-family: var(--font-poppins);
   color: #8a8a8a;
   background: url(/images/Noise-&-Texture.png) no-repeat 50%;
+  background: url(<path-to-image>) lightgray 0% 0% / 100px 100px repeat;
+  mix-blend-mode: luminosity;
   background-size: cover;
 }
 
