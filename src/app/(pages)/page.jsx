@@ -49,9 +49,9 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-20">
-              <div className="flex justify-center">
-                <div className="w-[33.33%]! mr-[20px]!">
+            <div className="p-top">
+              <div className="flex justify-center gap-5">
+                <div className="w-1/3">
                   <a className="service-card" href="#">
                     <div className="img-wrapper overflow-hidden relative h-64">
                       <Image
@@ -118,7 +118,7 @@ const page = () => {
                     </div>
                   </a>
                 </div>
-                <div className="w-[33.33%]! mr-[20px]!">
+                <div className="w-1/3">
                   <a className="service-card" href="#">
                     <div className="img-wrapper overflow-hidden relative h-64">
                       <Image
@@ -186,7 +186,7 @@ const page = () => {
                     </div>
                   </a>
                 </div>
-                <div className="w-[33.33%]! mr-[20px]!">
+                <div className="w-1/3">
                   <a className="service-card" href="#">
                     <div className="img-wrapper overflow-hidden relative h-64">
                       <Image

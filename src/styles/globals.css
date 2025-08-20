@@ -125,6 +125,9 @@ h5 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.p-top {
+  padding-top: 50px;
+}
 
 .py-80 {
   padding-top: 80px;
@@ -324,7 +327,6 @@ h5 {
 .product-card .img-wrapper {
   width: 100%;
   height: 500px;
-  border-radius: 20px;
   overflow: hidden;
   position: relative;
   background-color: #fff;
