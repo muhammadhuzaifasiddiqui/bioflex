@@ -33,20 +33,20 @@ const Trusted = () => {
               </div>
               <div className="grid grid-cols-3  gap-2.5 mt-[30px]">
                 <div className="counter-wrapper">
-                  <p className="fs-38 leading-[150%]">
+                  <p className="fs-35 leading-[150%]">
                     <span>15</span>+
                   </p>
-                  <p className="fs-18">Happy Customers</p>
+                  <p className="fs-16">Happy Customers</p>
                 </div>
                 <div className="counter-wrapper">
-                  <p className="fs-38 leading-[150%]">FDA</p>
-                  <p className="fs-18">Approved Technology</p>
+                  <p className="fs-35 leading-[150%]">FDA</p>
+                  <p className="fs-16">Approved Technology</p>
                 </div>
                 <div className="counter-wrapper">
-                  <p className="fs-38 leading-[150%]">
+                  <p className="fs-35 leading-[150%]">
                     <span>99</span>%
                   </p>
-                  <p className="fs-18">Satisfaction Rate</p>
+                  <p className="fs-16">Satisfaction Rate</p>
                 </div>
               </div>
             </div>
