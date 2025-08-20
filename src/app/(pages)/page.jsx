@@ -4,7 +4,6 @@ import Hero from "../components/layout/Hero";
 import Products from "../components/layout/Products";
 import Trusted from "../components/layout/Trusted";
 import Blog from "../components/layout/Blog";
-
 import Book from "../components/layout/Book";
 import Contact from "../components/layout/Contact";
 import Footer from "../components/layout/Footer";
@@ -16,8 +15,8 @@ const page = () => {
     <>
       <Navbar />
       <Hero />
-      <section className="service-section overflow-hidden">
-        <div className="container mx-auto py-80">
+      <section className="service-section overflow-hidden py-80">
+        <div className="container mx-auto">
           <div className="flex flex-col">
             <div className="flex flex-col lg:flex-row gap-5">
               <div className="w-full lg:w-[58%]">
@@ -44,7 +43,7 @@ const page = () => {
                   professionals.
                 </p>
                 <div className="pt-6 md:pt-8 lg:pt-10">
-                  <a className="btn inline-block" href="#">
+                  <a className="btn inline-block bg-primary text-white!" href="#">
                     View All Treatments
                   </a>
                 </div>

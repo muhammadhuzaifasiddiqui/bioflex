@@ -73,7 +73,7 @@ const Blog = () => {
                       </p>
                       <div className="mt-[30px] lg:mt-[45px]">
                         <a
-                          className="btn inline-block px-[26px] py-[9px] rounded-[12px]"
+                          className="btn inline-block bg-primary text-white!"
                           href="#"
                         >
                           Continue Reading
@@ -115,7 +115,7 @@ const Blog = () => {
                       </p>
                       <div className="mt-[30px] lg:mt-[45px]">
                         <a
-                          className="btn inline-block px-[26px] py-[9px] rounded-[12px]"
+                          className="btn inline-block bg-primary text-white!"
                           href="#"
                         >
                           Continue Reading
@@ -154,7 +154,7 @@ const Blog = () => {
                       </p>
                       <div className="mt-[30px] lg:mt-[45px]">
                         <a
-                          className="btn inline-block px-[26px] py-[9px] rounded-[12px]"
+                          className="btn inline-block bg-primary text-white!"
                           href="#"
                         >
                           Continue Reading

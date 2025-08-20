@@ -16,7 +16,7 @@ const Navbar = () => {
     const handleScroll = () => {
       if (!navbar) return;
 
-      const shouldAddClass = window.scrollY >= 50;
+      const shouldAddClass = window.scrollY >= 25;
 
       // Only update class if state has changed
       if (shouldAddClass !== lastScrollState) {
@@ -35,7 +35,7 @@ const Navbar = () => {
       <nav className="navbar absolute w-full left-0">
         <div className="nav-container container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
-            <div className="Logo-wrapper">
+            <div className="Logo-wrapper cursor-pointer">
               <Image
                 src={"/images/logo.svg"}
                 width={151}
@@ -74,7 +74,7 @@ const Navbar = () => {
                   height={20}
                   alt="cart"
                   unoptimized={true}
-                  className="w-full! h-full! object-cover"
+                  className="w-full! h-full! object-cover cursor-pointer"
                 />
               </div>
               <div className="nav-icon p-[10px] rounded-full">
@@ -84,12 +84,12 @@ const Navbar = () => {
                   height={20}
                   alt="cart"
                   unoptimized={true}
-                  className="w-full! h-full! object-cover"
+                  className="w-full! h-full! object-cover cursor-pointer"
                 />
               </div>
               <a
                 href="#"
-                className="btn btn-primary font-normal items-center"
+                className="btn btn-primary font-normal items-center bg-primary text-white!"
               >
                 Login
               </a>

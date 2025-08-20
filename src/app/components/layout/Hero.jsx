@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-[60%] text-center lg:text-start">
-                <h1 className="font-nineties font-normal leading-[90%] text-secondary-light font-behindthetineties">
+                <h1 className="font-nineties font-medium leading-[90%] text-secondary-light font-behindthetineties">
                   The Best
                   <span className="text-primary italic">
                     {" "}
@@ -88,7 +88,6 @@ const Hero = () => {
                             <option value="rawalpindi">Rawalpindi</option>
                           </select>
 
-                          {/* Custom icon (down arrow) */}
                           <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
                             <svg
                               className="w-4 h-4 text-gray-500"
@@ -120,7 +119,6 @@ const Hero = () => {
                             <option value="rawalpindi">Rawalpindi</option>
                           </select>
 
-                          {/* Custom icon (down arrow) */}
                           <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
                             <svg
                               className="w-4 h-4 text-gray-500"
@@ -140,7 +138,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <button
-                      className="w-full btn mt-[10px] lg:mt-[16px] py-[16px]! px-[30px]!"
+                      className="w-full bg-primary text-white! btn mt-[10px] lg:mt-[16px] py-[16px]! px-[30px]!"
                       type="submit"
                     >
                       Book Appointment

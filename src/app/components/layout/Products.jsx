@@ -30,7 +30,7 @@ const Products = () => {
               </p>
               <div className="mt-6 md:mt-8 lg:mt-10">
                 <a
-                  className="btn inline-block"
+                  className="btn inline-block bg-primary text-white!"
                   href="/products"
                 >
                   Explore Our Product Line

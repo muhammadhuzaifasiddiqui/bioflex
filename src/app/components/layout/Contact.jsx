@@ -86,7 +86,7 @@ const Contact = () => {
                     />
                     <button
                       type="submit"
-                      className="w-full flex items-center justify-center gap-3 btn fs-18 rounded-[12px]! py-[10px]"
+                      className="w-full flex items-center justify-center gap-3 btn fs-18 bg-primary text-white!"
                     >
                       Subscribe
                       <Image
