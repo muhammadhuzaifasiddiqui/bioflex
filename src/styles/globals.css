@@ -9,6 +9,10 @@ body {
   background-size: cover;
 }
 
+.container {
+  width: 1280px !important;
+}
+
 img {
   width: auto;
   height: auto;
@@ -130,6 +134,8 @@ h5 {
 .btn {
   color: #ffff;
   background: #911e3d;
+  padding: 9px 20px;
+  border-radius: 12px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -166,7 +172,7 @@ h5 {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background: #f4ede480;
-  box-shadow: 0 0 24px #00000026;  
+  box-shadow: 0 0 24px #00000026;
 }
 
 .navbar.scroll-down .nav-container {
@@ -289,14 +295,6 @@ h5 {
   border-radius: 10px;
 }
 
-.btn {
-  font-size: 18px;
-  padding: 9px 20px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
 .ms-auto {
   margin-inline-start: auto;
 }
@@ -316,6 +314,9 @@ h5 {
 }
 
 /* product section */
+.product-section {
+  background: #f4ede4;
+}
 
 .product-card .img-wrapper {
   height: 442px;

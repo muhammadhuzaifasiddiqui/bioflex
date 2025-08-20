@@ -30,7 +30,7 @@ const Products = () => {
               </p>
               <div className="mt-6 md:mt-8 lg:mt-10">
                 <a
-                  className="btn inline-block px-[24px] py-[10px] rounded-[12px]"
+                  className="btn inline-block"
                   href="/products"
                 >
                   Explore Our Product Line
@@ -54,9 +54,9 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
+                    <h5 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
                       SPF 60 Sunblock
-                    </h4>
+                    </h5>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>
                       <Image
@@ -91,9 +91,9 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
+                    <h5 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
                       Acivo Spray
-                    </h4>
+                    </h5>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>
                       <Image
@@ -128,9 +128,9 @@ const Products = () => {
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
-                    <h4 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
+                    <h5 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
                       Hair Serum
-                    </h4>
+                    </h5>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>
                       <Image

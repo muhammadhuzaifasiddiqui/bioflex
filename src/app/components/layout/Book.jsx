@@ -67,7 +67,7 @@ const Book = () => {
                 </div>
               </div>
               <div className="text-center pt-6 lg:pt-[275px]">
-                <a className="inline-block btn px-14! fs-18 font-bold" href="/#appointment-section">Book Now</a>
+                <a className="btn inline-block px-14! fs-18 font-bold" href="/#appointment-section">Book Now</a>
               </div>
             </div>
           </div>

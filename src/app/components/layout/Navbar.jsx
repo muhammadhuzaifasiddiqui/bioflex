@@ -89,7 +89,7 @@ const Navbar = () => {
               </div>
               <a
                 href="#"
-                className="btn btn-primary font-normal items-center px-[27px] py-[10px] rounded-[8px]"
+                className="btn btn-primary font-normal items-center"
               >
                 Login
               </a>

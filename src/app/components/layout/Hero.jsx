@@ -16,20 +16,16 @@ const Hero = () => {
               <div className="w-full lg:w-[60%] text-center lg:text-start">
                 <h1 className="font-nineties font-normal leading-[90%] text-secondary-light font-behindthetineties">
                   The Best
-                  <span className="text-primary italic font-medium">
+                  <span className="text-primary italic">
                     {" "}
                     Laser Hair Removal
                   </span>
                   ,
-                  <span className="text-primary italic font-medium">
+                  <span className="text-primary italic">
                     {" "}
                     Hydrafacial Treatment{" "}
                   </span>
-                  &
-                  <span className="text-primary italic font-medium">
-                    {" "}
-                    PRP Therapy{" "}
-                  </span>
+                  &<span className="text-primary italic"> PRP Therapy </span>
                   in Pakistan
                 </h1>
                 <p className="fs-16 pt-6 text-center lg:text-justify">
@@ -50,26 +46,26 @@ const Hero = () => {
                   height={720}
                   alt="logo"
                   unoptimized={true}
-                  className="w-full h-full lg:w-auto relative lg:absolute end-0 bottom-0 mx-auto object-cover rounded-br-[20px]"
+                  className="w-full lg:w-auto relative lg:absolute end-0 bottom-0 mx-auto rounded-br-[20px]"
                 />
                 <div className="scroll-mt-[300px] book-appointment-container  mt-[24px] lg:mt-[50px] mb-[20px] lg:mb-[44px] ">
-                  <h4 className="text-dark font-medium text-start mb-2.5 leading-[50%]">
+                  <h5 className="text-dark font-medium text-start mb-2.5 leading-[100%]">
                     Book a Free Appointment
-                  </h4>
+                  </h5>
                   <form>
                     <div className="flex flex-col gap-2 lg:gap-y-[16px] pt-[10px]">
                       <div className="flex gap-x-[10px] gap-y-3">
                         <div className="w-full">
                           <input
                             type="email"
-                            className="fs-18 form-control w-full font-normal"
+                            className="fs-18 form-control w-full font-normal focus:border-transparent focus:outline-none"
                             placeholder="Your E-mail Address"
                             name="email"
                           />
                         </div>
                         <div className="w-full">
                           <input
-                            className="fs-18 w-full form-control font-normal"
+                            className="fs-18 w-full form-control font-normal focus:border-transparent focus:outline-none"
                             type="tel"
                             placeholder="Contact Number"
                             name="phone"
@@ -77,10 +73,10 @@ const Hero = () => {
                         </div>
                       </div>
                       <div className="flex gap-2 lg:gap-x-[10px] lg:gap-y-3">
-                        <div className="w-full">
+                        <div className="relative w-full">
                           <select
                             name="branch"
-                            className="fs-18 w-full form-control font-normal pr-10"
+                            className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                             defaultValue=""
                           >
                             <option value="" disabled>
@@ -91,25 +87,64 @@ const Hero = () => {
                             <option value="peshawar">Peshawar</option>
                             <option value="rawalpindi">Rawalpindi</option>
                           </select>
+
+                          {/* Custom icon (down arrow) */}
+                          <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                            <svg
+                              className="w-4 h-4 text-gray-500"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="1.5px"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </span>
                         </div>
-                        <div className="w-full">
+                        <div className="relative w-full">
                           <select
                             name="branch"
-                            className="fs-18 w-full form-control font-normal"
+                            className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                             defaultValue=""
                           >
                             <option value="" disabled>
-                              Treatment Concern
+                              Select Branch
                             </option>
                             <option value="karachi">Karachi</option>
                             <option value="islamabad">Islamabad</option>
                             <option value="peshawar">Peshawar</option>
                             <option value="rawalpindi">Rawalpindi</option>
                           </select>
+
+                          {/* Custom icon (down arrow) */}
+                          <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                            <svg
+                              className="w-4 h-4 text-gray-500"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="1.5px"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </span>
                         </div>
                       </div>
                     </div>
-                    <button className="w-full btn mt-[10px] rounded-[10px] lg:mt-[16px] py-[14px]" type="submit">Book Appointment</button>
+                    <button
+                      className="w-full btn mt-[10px] lg:mt-[16px] py-[16px]! px-[30px]!"
+                      type="submit"
+                    >
+                      Book Appointment
+                    </button>
                   </form>
                 </div>
               </div>

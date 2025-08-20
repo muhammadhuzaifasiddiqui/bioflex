@@ -16,7 +16,7 @@ const Contact = () => {
               <h5 className="text-secondary">Call Center</h5>
               <div className="flex flex-col pt-2.5">
                 <a
-                  className="fs-20 text-dark hover-underline"
+                  className="fs-18 text-dark hover-underline"
                   aria-label="Call +92323 2463539"
                   href="tel:+923232463539"
                 >
@@ -28,7 +28,7 @@ const Contact = () => {
               <h5 className="text-secondary">E-mail Address</h5>
               <div className="pt-2.5">
                 <a
-                  className="fs-20 text-dark hover-underline break-all"
+                  className="fs-18 text-dark hover-underline break-all"
                   aria-label="Send an email to info at bioflex aesthetics dot com"
                   href="mailto:info@bioflexaesthetics.com"
                 >
@@ -41,28 +41,28 @@ const Contact = () => {
               <div className="flex flex-col pt-2.5">
                 <a
                   target="_blank"
-                  className="fs-20 text-dark hover-underline"
+                  className="fs-18 text-dark hover-underline"
                   href="https://maps.app.goo.gl/kCmHMQgeVeMSQ5AP7"
                 >
                   Karachi
                 </a>
                 <a
                   target="_blank"
-                  className="fs-20 text-dark hover-underline"
+                  className="fs-18 text-dark hover-underline"
                   href="https://maps.app.goo.gl/PzxQnFfvdmtqod3s7"
                 >
                   Islamabad
                 </a>
                 <a
                   target="_blank"
-                  className="fs-20 text-dark hover-underline"
+                  className="fs-18 text-dark hover-underline"
                   href="https://maps.app.goo.gl/xVY6GBbWMT1rWPQZ9"
                 >
                   Peshawar
                 </a>
                 <a
                   target="_blank"
-                  className="fs-20 text-dark hover-underline"
+                  className="fs-18 text-dark hover-underline"
                   href="https://maps.app.goo.gl/8GoQkky9NyeYjnJt5"
                 >
                   Rawalpindi
@@ -86,7 +86,7 @@ const Contact = () => {
                     />
                     <button
                       type="submit"
-                      className="w-full flex items-center justify-center gap-3 btn btn-sm fs-18"
+                      className="w-full flex items-center justify-center gap-3 btn fs-18 rounded-[12px]! py-[10px]"
                     >
                       Subscribe
                       <Image

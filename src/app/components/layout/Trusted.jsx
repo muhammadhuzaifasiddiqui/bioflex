@@ -57,7 +57,7 @@ const Trusted = () => {
                 height={571}
                 alt="logo"
                 unoptimized={true}
-                className="w-full h-full object-cover "
+                className="w-full! h-full!"
               />
             </div>
           </div>
