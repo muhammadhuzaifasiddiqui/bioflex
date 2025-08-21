@@ -15,7 +15,7 @@ const page = () => {
     <>
       <Navbar />
       <Hero />
-      <section className="service-section overflow-hidden py-80">
+      {/* <section className="service-section overflow-hidden py-80">
         <div className="container mx-auto">
           <div className="flex flex-col">
             <div className="flex flex-col lg:flex-row gap-5">
@@ -258,7 +258,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>      
+      </section>       */}
       {/* <Products />
       <Trusted />
       <Blog />

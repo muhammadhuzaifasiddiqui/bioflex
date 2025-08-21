@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0 px-3 sm:px-3.5 md:px-5">
+      <nav className="navbar absolute w-full left-0 px-0 sm:px-3.5 md:px-5">
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="Logo-wrapper cursor-pointer">
@@ -42,7 +42,7 @@ const Navbar = () => {
                 height={23}
                 alt="logo"
                 unoptimized={true}
-                className="w-full! h-full! object-cover"
+                className="w-full! h-full! object-contain"
               />
             </div>
             <div className="lg:flex hidden navbar-menu items-center justify-center gap-2 xl:gap-8">
@@ -98,16 +98,24 @@ const Navbar = () => {
             <div className="lg:hidden flex items-center">
               <button
                 onClick={toggleMenu}
-                className="p-2 rounded-md transition"
+                className="nav-toggle-btn rounded-md transition"
                 aria-label="Toggle menu"
               >
-                <svg
+                <Image
+                  src={"https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/menu.svg"}
+                  width={24}
+                  height={25}
+                  alt="hamburder"
+                  unoptimized={true}
+                  className="w-full! h-full! object-cover"
+                />                                
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="39"
                   height="38"
                   viewBox="0 0 39 38"
                   fill="none"
-                >
+                > */}
                   <path
                     d="M6.58496 9.5H31.9183M6.58496 19H31.9183M6.58496 28.5H31.9183"
                     stroke="#A1A1AA"
@@ -115,7 +123,7 @@ const Navbar = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
-                </svg>
+                {/* </svg> */}
               </button>
             </div>
           </div>

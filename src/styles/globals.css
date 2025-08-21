@@ -9,10 +9,6 @@ body {
   background-size: cover;
 }
 
-.container {
-  width: 1280px !important;
-}
-
 img {
   width: auto;
   height: auto;
@@ -151,6 +147,11 @@ h5 {
   font-size: 20px;
 }
 
+.Logo-wrapper {
+  height: 50px;
+  width: 120px;
+}
+
 .navbar {
   z-index: 100;
   width: calc(100% - 100px);
@@ -165,7 +166,7 @@ h5 {
 .navbar.scroll-down {
   z-index: 100;
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
   transition: all 0.2s ease-in-out;
   position: fixed;
   top: 0px;
@@ -210,6 +211,10 @@ h5 {
 
 .nav-icon {
   background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-toggle-btn {
+  padding: 8px;
 }
 
 /* hero section */
@@ -501,8 +506,16 @@ textarea {
   .container {
     max-width: 1280px;
   }
+  .Logo-wrapper {
+    height: 45px;
+    width: 120px;
+  }
   .navbar .nav-container {
     max-width: 1200px;
+    padding: 8px 20px;
+  }
+  h1 {
+    font-size: 65;
   }
 }
 
@@ -510,8 +523,19 @@ textarea {
   .container {
     max-width: 1024px;
   }
+  .Logo-wrapper {
+    height: 40px;
+    width: 120px;
+  }  
   .navbar .nav-container {
-    max-width: 1000px;
+    max-width: 950px;
+    padding: 7px 18px;
+  }
+  .nav-toggle-btn {
+    padding: 5px;
+  }
+  h1 {
+    font-size: 55;
   }
 }
 
@@ -519,11 +543,36 @@ textarea {
   .container {
     max-width: 768px;
   }
+  .Logo-wrapper {
+    height: 40px;
+    width: 120px;
+  }
+  .navbar .nav-container {
+    max-width: 700px;
+    padding: 4px 10px;
+  }
+  h1 {
+    font-size: 55;
+  }
 }
 
 @media screen and (max-width: 40rem) {
   .container {
     max-width: 640px;
+  }
+  .Logo-wrapper {
+    height: 37px;
+    width: 120px;
+  }  
+  .navbar {
+    width: calc(100% - 65px);
+    top: 30px;
+  }
+  .navbar .nav-container {
+    max-width: 580px;
+  }
+  h1 {
+    font-size: 55;
   }
 }
 
@@ -531,4 +580,43 @@ textarea {
   .container {
     max-width: 575px;
   }
+  .Logo-wrapper {
+    height: 35px;
+    width: 120px;
+  }    
+  .navbar {
+    width: calc(100% - 55px);
+    top: 30px;
+  }
+  .navbar .nav-container {
+    max-width: 575px;
+  }
+  h1 {
+    font-size: 55;
+  }
 }
+
+/* @media screen and (max-width: 27rem) {
+  .container {
+    max-width: 490px;
+  }
+
+  .navbar .nav-container {
+    max-width: 490px;
+  }
+  h1 {
+    font-size: 55;
+  }
+}
+
+@media screen and (max-width: 19rem) {
+  .container {
+    max-width: 575px;
+  }
+  .navbar .nav-container {
+    max-width: 520px;
+  }
+  h1 {
+    font-size: 55;
+  }
+} */
