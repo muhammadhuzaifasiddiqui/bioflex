@@ -259,13 +259,13 @@ const page = () => {
           </div>
         </div>
       </section>      
-      <Products />
+      {/* <Products />
       <Trusted />
       <Blog />
       <Marquee />
       <Book />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

@@ -32,8 +32,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0">
-        <div className="nav-container container mx-auto relative left-0">
+      <nav className="navbar absolute w-full left-0 px-3 sm:px-3.5 md:px-5">
+        <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="Logo-wrapper cursor-pointer">
               <Image
@@ -45,7 +45,7 @@ const Navbar = () => {
                 className="w-full! h-full! object-cover"
               />
             </div>
-            <div className="lg:flex hidden navbar-menu gap-8">
+            <div className="lg:flex hidden navbar-menu items-center justify-center gap-2 xl:gap-8">
               <a className="fs-16 nav-link fw-normal active" href="#">
                 Home
               </a>
