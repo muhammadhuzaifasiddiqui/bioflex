@@ -80,7 +80,7 @@ const Contact = () => {
                   <div className="flex flex-col gap-2.5">
                     <input
                       type="email"
-                      className="w-full form-control fs-16"
+                      className="w-full form-control fs-16 focus:border-transparent focus:outline-none"
                       placeholder="Your E-mail Address"
                       name="email"
                     />

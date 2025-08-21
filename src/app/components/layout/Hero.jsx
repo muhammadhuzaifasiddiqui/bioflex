@@ -58,14 +58,14 @@ const Hero = () => {
                       <div className="w-full">
                         <input
                           type="email"
-                          className="fs-18 form-control w-full font-normal focus:border-transparent focus:outline-none"
+                          className="form-control w-full font-normal focus:border-transparent focus:outline-none"
                           placeholder="Your E-mail Address"
                           name="email"
                         />
                       </div>
                       <div className="w-full">
                         <input
-                          className="fs-18 w-full form-control font-normal focus:border-transparent focus:outline-none"
+                          className="w-full form-control font-normal focus:border-transparent focus:outline-none"
                           type="tel"
                           placeholder="Contact Number"
                           name="phone"
@@ -74,7 +74,7 @@ const Hero = () => {
                       <div className="relative w-full">
                         <select
                           name="branch"
-                          className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+                          className="w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                           defaultValue=""
                         >
                           <option value="" disabled>
@@ -105,7 +105,7 @@ const Hero = () => {
                       <div className="relative w-full">
                         <select
                           name="branch"
-                          className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+                          className="w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                           defaultValue=""
                         >
                           <option value="" disabled>
@@ -135,92 +135,8 @@ const Hero = () => {
                       </div>
                     </div>
 
-                    {/* <div className="flex flex-col gap-2 lg:gap-y-[16px] pt-[10px]"> */}
-                      {/* <div className="flex gap-x-[10px] gap-y-3">
-                        <div className="w-full">
-                          <input
-                            type="email"
-                            className="fs-18 form-control w-full font-normal focus:border-transparent focus:outline-none"
-                            placeholder="Your E-mail Address"
-                            name="email"
-                          />
-                        </div>
-                        <div className="w-full">
-                          <input
-                            className="fs-18 w-full form-control font-normal focus:border-transparent focus:outline-none"
-                            type="tel"
-                            placeholder="Contact Number"
-                            name="phone"
-                          />
-                        </div>
-                      </div> */}
-                      {/* <div className="flex gap-2 lg:gap-x-[10px] lg:gap-y-3">
-                        <div className="relative w-full">
-                          <select
-                            name="branch"
-                            className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
-                            defaultValue=""
-                          >
-                            <option value="" disabled>
-                              Select Branch
-                            </option>
-                            <option value="karachi">Karachi</option>
-                            <option value="islamabad">Islamabad</option>
-                            <option value="peshawar">Peshawar</option>
-                            <option value="rawalpindi">Rawalpindi</option>
-                          </select>
-
-                          <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                            <svg
-                              className="w-4 h-4 text-gray-500"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="1.5px"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19 9l-7 7-7-7"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                        <div className="relative w-full">
-                          <select
-                            name="branch"
-                            className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
-                            defaultValue=""
-                          >
-                            <option value="" disabled>
-                              Select Branch
-                            </option>
-                            <option value="karachi">Karachi</option>
-                            <option value="islamabad">Islamabad</option>
-                            <option value="peshawar">Peshawar</option>
-                            <option value="rawalpindi">Rawalpindi</option>
-                          </select>
-
-                          <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                            <svg
-                              className="w-4 h-4 text-gray-500"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="1.5px"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19 9l-7 7-7-7"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </div> */}
-                    {/* </div> */}
                     <button
-                      className="w-full bg-primary text-white! btn mt-[10px] lg:mt-[16px] py-[16px]! px-[30px]!"
+                      className="w-full fs-18 bg-primary text-white! btn mt-[10px] lg:mt-[16px] py-[10px]! px-[24px]! sm:py-[14px]! sm:px-[24px]!"
                       type="submit"
                     >
                       Book Appointment
@@ -232,6 +148,90 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      {/* <div className="flex flex-col gap-2 lg:gap-y-[16px] pt-[10px]">
+        <div className="flex gap-x-[10px] gap-y-3">
+          <div className="w-full">
+            <input
+              type="email"
+              className="fs-18 form-control w-full font-normal focus:border-transparent focus:outline-none"
+              placeholder="Your E-mail Address"
+              name="email"
+            />
+          </div>
+          <div className="w-full">
+            <input
+              className="fs-18 w-full form-control font-normal focus:border-transparent focus:outline-none"
+              type="tel"
+              placeholder="Contact Number"
+              name="phone"
+            />
+          </div>
+        </div>
+        <div className="flex gap-2 lg:gap-x-[10px] lg:gap-y-3">
+          <div className="relative w-full">
+            <select
+              name="branch"
+              className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Select Branch
+              </option>
+              <option value="karachi">Karachi</option>
+              <option value="islamabad">Islamabad</option>
+              <option value="peshawar">Peshawar</option>
+              <option value="rawalpindi">Rawalpindi</option>
+            </select>
+
+            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+              <svg
+                className="w-4 h-4 text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5px"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </span>
+          </div>
+          <div className="relative w-full">
+            <select
+              name="branch"
+              className="fs-18 w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Select Branch
+              </option>
+              <option value="karachi">Karachi</option>
+              <option value="islamabad">Islamabad</option>
+              <option value="peshawar">Peshawar</option>
+              <option value="rawalpindi">Rawalpindi</option>
+            </select>
+
+            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+              <svg
+                className="w-4 h-4 text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5px"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };

@@ -142,6 +142,16 @@ h5 {
   font-size: 14px !important;
 }
 
+.form-control {
+  color: #1f1f1f;
+  background-color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 8px;
+  padding: 13px 15px;
+  overflow: hidden;
+}
+
 /* header */
 .Logo {
   font-size: 20px;
@@ -258,16 +268,6 @@ h5 {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
-}
-
-.form-control {
-  color: #1f1f1f;
-  background-color: #fff;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border-radius: 10px;
-  padding: 13px 15px;
-  overflow: hidden;
 }
 
 /* service section */
@@ -449,14 +449,6 @@ h5 {
   background-color: #ededed;
 }
 
-.form-control {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border-radius: 10px;
-  padding: 13px 15px;
-  overflow: hidden;
-}
-
 button,
 input,
 optgroup,
@@ -526,7 +518,7 @@ textarea {
   .Logo-wrapper {
     height: 40px;
     width: 120px;
-  }  
+  }
   .navbar .nav-container {
     max-width: 950px;
     padding: 7px 18px;
@@ -537,9 +529,18 @@ textarea {
   h1 {
     font-size: 55;
   }
+  h5 {
+    font-size: 20px;
+  }
+  .fs-18 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 48rem) {
+  body {
+    font-size: 14px;
+  }
   .container {
     max-width: 768px;
   }
@@ -554,16 +555,22 @@ textarea {
   h1 {
     font-size: 55;
   }
+  .fs-18 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 40rem) {
+  body {
+    font-size: 12px;
+  }
   .container {
     max-width: 640px;
   }
   .Logo-wrapper {
     height: 37px;
     width: 120px;
-  }  
+  }
   .navbar {
     width: calc(100% - 65px);
     top: 30px;
@@ -571,19 +578,37 @@ textarea {
   .navbar .nav-container {
     max-width: 580px;
   }
+  .hero-section .background-wrapper {
+    padding-top: 100px;
+  }
+  .form-control {
+    padding: 9px 10px;
+  }
   h1 {
-    font-size: 55;
+    font-size: 40;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .fs-16 {
+    font-size: 13px;
+  }
+  .fs-18 {
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 36rem) {
+  body {
+    font-size: 12px;
+  }
   .container {
     max-width: 575px;
   }
   .Logo-wrapper {
     height: 35px;
     width: 120px;
-  }    
+  }
   .navbar {
     width: calc(100% - 55px);
     top: 30px;
@@ -591,8 +616,20 @@ textarea {
   .navbar .nav-container {
     max-width: 575px;
   }
+  .hero-section .background-wrapper {
+    padding-top: 100px;
+  }
   h1 {
-    font-size: 55;
+    font-size: 40;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .fs-16 {
+    font-size: 13px;
+  }
+  .fs-18 {
+    font-size: 14px;
   }
 }
 

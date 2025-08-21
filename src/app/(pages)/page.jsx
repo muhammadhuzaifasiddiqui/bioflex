@@ -258,14 +258,14 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>       */}
-      {/* <Products />
+      </section>      
+      <Products />
       <Trusted />
       <Blog />
       <Marquee />
-      <Book />
+      <Book /> */}
       <Contact />
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   );
 };
