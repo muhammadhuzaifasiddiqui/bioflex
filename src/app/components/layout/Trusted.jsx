@@ -11,7 +11,7 @@ const Trusted = () => {
     <>
       <section className="trusted-section py-80 px-4 sm:px-5 md:px-6 lg:px-10">
         <div className="container mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between gap-[30px]">
+          <div className="flex flex-col lg:flex-row justify-between  gap-[20px]">
             <div className="flex flex-col justify-between w-full lg:w-[52%]">
               <div>
                 <h2 className="font-behindthetineties text-secondary-light leading-[90%]">

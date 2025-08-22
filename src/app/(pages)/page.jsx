@@ -53,7 +53,7 @@ const page = () => {
               </div>
             </div>
             <div className="pt-50">
-              <div className="grid sm:gap-1 lg:gap-3 xl:gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 <a className="service-card" href="#">
                   <div className="img-wrapper overflow-hidden relative h-64">
                     <Image
@@ -64,7 +64,7 @@ const page = () => {
                       unoptimized={true}
                       className="w-full! h-full! object-cover"
                     />
-                    <div className="flex flex-col justify-between absolute inset-0 p-5">
+                    <div className="flex flex-col justify-between absolute inset-0 p-2 md:p-3 xl:p-5">
                       <div className="btn btn-lg btn-circle ms-auto">
                         <Image
                           src={"/images/Arrow Right.svg"}
@@ -127,7 +127,7 @@ const page = () => {
                       unoptimized={true}
                       className="w-full! h-full! object-cover"
                     />
-                    <div className="flex flex-col justify-between absolute inset-0 p-5">
+                    <div className="flex flex-col justify-between absolute inset-0 p-2 md:p-3 xl:p-5">
                       <div className="btn btn-lg btn-circle ms-auto">
                         <Image
                           src={"/images/Arrow Right.svg"}
@@ -193,7 +193,7 @@ const page = () => {
                       unoptimized={true}
                       className="w-full! h-full! object-cover"
                     />
-                    <div className="flex flex-col justify-between absolute inset-0 p-5">
+                    <div className="flex flex-col justify-between absolute inset-0 p-2 md:p-3 xl:p-5">
                       <div className="btn btn-lg btn-circle ms-auto">
                         <Image
                           src={"/images/Arrow Right.svg"}

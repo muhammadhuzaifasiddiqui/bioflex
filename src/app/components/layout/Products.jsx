@@ -37,7 +37,7 @@ const Products = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5 md:gap-y-6 md:pt-13 lg:pt-15">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:pt-13 lg:pt-15">
               <a
                 className="product-card cursor-pointer flex flex-col h-full"
                 href="/products/spf-60-sunblock"
@@ -49,7 +49,7 @@ const Products = () => {
                     height={442}
                     alt="logo"
                     unoptimized={true}
-                    className="w-full! h-full! object-cover rounded-[20px]"
+                    className="w-full! h-full! object-cover"
                   />
                 </div>
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
