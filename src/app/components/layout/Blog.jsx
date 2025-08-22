@@ -44,7 +44,7 @@ const Blog = () => {
               modules={[Pagination]}
             >
               <SwiperSlide>
-                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-5">
+                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
                   <div className="flex flex-col lg:flex-row justify-between gap-y-3 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -60,7 +60,7 @@ const Blog = () => {
                     </div>
                     <div className="w-full lg:w-[42%]">
                       <p className="fs-16">01-08-2025</p>
-                      <h4 className="font-behindthetineties text-secondary mt-4.5 leading-[110%]">
+                      <h4 className="font-behindthetineties text-secondary mt-4.5 leading-[120%]">
                         "Bioflex Aesthetic VIVA: FDA-Approved Acne Scar
                         Treatment | A Breakthrough in Scar Healing"
                       </h4>
@@ -71,7 +71,7 @@ const Blog = () => {
                         traditional treatments and how it delivers long-lasting
                         results for clearer, smoother skin."
                       </p>
-                      <div className="mt-[30px] lg:mt-[45px]">
+                      <div className="mt-[16px] lg:mt-[45px]">
                         <a
                           className="btn inline-block bg-primary text-white!"
                           href="#"
@@ -85,7 +85,7 @@ const Blog = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="blog-swiper pt-12 pb-5">
+                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
                   <div className="flex flex-col lg:flex-row justify-between gap-y-3 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -108,12 +108,13 @@ const Blog = () => {
                         Long-Lasting Beauty"
                       </h4>
                       <p className="fs-16 text-justify mt-5 lg:mt-9">
-                        "Expert tips to maintain aesthetic treatment results for
-                        longer-lasting beauty. Learn skincare routines,
-                        lifestyle habits, and expert recommendations for
-                        post-treatment care."
+                        "Bioflex Aesthetic VIVA, the FDA-approved acne scar
+                        treatment, is revolutionizing scar healing with
+                        cutting-edge technology. Learn why it’s different from
+                        traditional treatments and how it delivers long-lasting
+                        results for clearer, smoother skin."
                       </p>
-                      <div className="mt-[30px] lg:mt-[45px]">
+                      <div className="mt-[16px] lg:mt-[45px]">
                         <a
                           className="btn inline-block bg-primary text-white!"
                           href="#"
@@ -127,7 +128,7 @@ const Blog = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="blog-swiper pt-12 pb-5">
+                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
                   <div className="flex flex-col lg:flex-row justify-between gap-y-3 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -148,11 +149,13 @@ const Blog = () => {
                         Reduction for Smooth Skin"
                       </h4>
                       <p className="fs-16 text-justify mt-5 lg:mt-9">
-                        "The benefits, process, and safety of facial laser hair
-                        removal. Learn how laser treatment provides long-term
-                        smoothness for all skin types."
+                        "Bioflex Aesthetic VIVA, the FDA-approved acne scar
+                        treatment, is revolutionizing scar healing with
+                        cutting-edge technology. Learn why it’s different from
+                        traditional treatments and how it delivers long-lasting
+                        results for clearer, smoother skin."
                       </p>
-                      <div className="mt-[30px] lg:mt-[45px]">
+                      <div className="mt-[16px] lg:mt-[45px]">
                         <a
                           className="btn inline-block bg-primary text-white!"
                           href="#"
@@ -166,16 +169,11 @@ const Blog = () => {
               </SwiperSlide>
             </Swiper>
 
-            <div className="custom-pagination flex justify-center gap-3 mt-2"></div>
+            <div className="custom-pagination flex justify-center gap-3 mt-0 sm:mt-2"></div>
 
             <style jsx global>{`
               .custom-bullet {
-                width: 100px;
-                height: 8px;
-                background-color: #8a8a8a;
-                border-radius: 9999px;
-                transition: all 300ms ease-in-out;
-                display: inline-block;
+
               }
 
               .swiper-pagination-bullet-active.custom-bullet {

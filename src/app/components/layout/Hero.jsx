@@ -132,7 +132,7 @@ const Hero = () => {
                   </div>
 
                   <button
-                    className="w-full fs-18 bg-primary btn mt-[10px] lg:mt-[16px] py-[10px]! px-[24px]! sm:py-[14px]! sm:px-[24px]!"
+                    className="w-full btn-primary btn btn-lg mt-[15px] lg:mt-[18px] py-[10px]! px-[24px]! sm:py-[14px]! sm:px-[24px]!"
                     type="submit"
                   >
                     Book Appointment

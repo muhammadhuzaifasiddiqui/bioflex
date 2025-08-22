@@ -85,7 +85,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="pt-4">
-                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
+                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[110%]">
                       Exosome Therapy for Hair Loss
                     </h5>
                     <p className="line-clamp-2 mt-3">
@@ -148,7 +148,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="pt-4">
-                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
+                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[110%]">
                       EMS
                     </h5>
                     <p className="line-clamp-2 mt-3">
@@ -214,7 +214,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="pt-4">
-                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[90%]">
+                    <h5 className="line-clamp-1 text-secondary-dark font-medium leading-[110%]">
                       RF (BODY)
                     </h5>
                     <p className="line-clamp-2 mt-3">

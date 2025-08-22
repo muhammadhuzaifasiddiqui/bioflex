@@ -30,14 +30,14 @@ const Products = () => {
               </p>
               <div className="mt-6 md:mt-8 lg:mt-10">
                 <a
-                  className="btn inline-block bg-primary text-white!"
+                  className="btn btn-primary inline-block"
                   href="/products"
                 >
                   Explore Our Product Line
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-5 md:pt-8 lg:pt-10 xl:pt-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-7 md:pt-9 xl:pt-12">
               <a
                 className="product-card cursor-pointer flex flex-col h-full"
                 href="/products/spf-60-sunblock"

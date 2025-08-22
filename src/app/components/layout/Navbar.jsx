@@ -89,7 +89,7 @@ const Navbar = () => {
               </div>
               <a
                 href="#"
-                className="btn btn-primary fs-14 font-normal items-center bg-primary text-white!"
+                className="btn btn-primary btn-sm fs-14 font-normal"
               >
                 Login
               </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
                   src={"https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/menu.svg"}
                   width={24}
                   height={25}
-                  alt="hamburder"
+                  alt="hamburger"
                   unoptimized={true}
                   className="w-full! h-full! object-cover"
                 />                                
