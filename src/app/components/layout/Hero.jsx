@@ -12,7 +12,7 @@ const Hero = () => {
       <section className="hero-section px-4 sm:px-5 md:px-6 lg:px-10 mt-4 lg:mt-5">
         <div className="background-wrapper relative">
           <div className="container mx-auto">
-            <div className="flex flex-col lg:flex-row">
+            {/* <div className="flex flex-col lg:flex-row"> */}
               <div className="w-full lg:w-[60%] text-center lg:text-start">
                 <h1 className="font-nineties font-medium leading-[90%] text-secondary-light font-behindthetineties">
                   The Best
@@ -144,7 +144,7 @@ const Hero = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </section>

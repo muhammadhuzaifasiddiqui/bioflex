@@ -130,16 +130,16 @@ h5 {
   padding-bottom: 80px;
 }
 
+.btn-primary {
+  background: #911e3d;
+}
+
 .btn {
   padding: 9px 20px;
   border-radius: 12px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-}
-
-.btn-primary {
-  font-size: 14px !important;
 }
 
 .form-control {
@@ -153,11 +153,11 @@ h5 {
 }
 
 /* header */
-.Logo {
+.logo {
   font-size: 20px;
 }
 
-.Logo-wrapper {
+.logo-wrapper {
   height: 50px;
   width: 120px;
 }
@@ -491,7 +491,7 @@ textarea {
   }
 }
 @media screen and (max-width: 80rem) {
-  .Logo-wrapper {
+  .logo-wrapper {
     height: 45px;
     width: 120px;
   }
@@ -526,7 +526,7 @@ textarea {
 }
 
 @media screen and (max-width: 64rem) {
-  .Logo-wrapper {
+  .logo-wrapper {
     height: 40px;
     width: 120px;
   }
@@ -558,7 +558,7 @@ textarea {
   body {
     font-size: 14px;
   }
-  .Logo-wrapper {
+  .logo-wrapper {
     height: 40px;
     width: 120px;
   }
@@ -592,7 +592,7 @@ textarea {
   body {
     font-size: 12px;
   }
-  .Logo-wrapper {
+  .logo-wrapper {
     height: 37px;
     width: 120px;
   }
@@ -637,7 +637,7 @@ textarea {
   body {
     font-size: 12px;
   }
-  .Logo-wrapper {
+  .logo-wrapper {
     height: 35px;
     width: 120px;
   }

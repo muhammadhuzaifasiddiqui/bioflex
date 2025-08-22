@@ -35,7 +35,7 @@ const Navbar = () => {
       <nav className="navbar absolute w-full left-0 px-0 sm:px-3.5 md:px-5">
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
-            <div className="Logo-wrapper cursor-pointer">
+            <div className="logo-wrapper cursor-pointer">
               <Image
                 src={"/images/logo.svg"}
                 width={151}
@@ -89,7 +89,7 @@ const Navbar = () => {
               </div>
               <a
                 href="#"
-                className="btn btn-primary font-normal items-center bg-primary text-white!"
+                className="btn btn-primary fs-14 font-normal items-center bg-primary text-white!"
               >
                 Login
               </a>
