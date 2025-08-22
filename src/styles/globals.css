@@ -485,9 +485,11 @@ textarea {
 }
 
 /* Responsive */
-@media screen and (max-width: 96rem) {
+@media screen and (min-width: 80rem) {
+  .container {
+    min-width: 1280px;
+  }
 }
-
 @media screen and (max-width: 80rem) {
   .Logo-wrapper {
     height: 45px;
