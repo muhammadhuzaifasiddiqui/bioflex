@@ -18,7 +18,7 @@ const page = () => {
       <section className="service-section overflow-hidden py-80 px-5 sm:px-2 md:px-5 lg:px-5">
         <div className="container mx-auto">
           <div className="flex flex-col">
-            <div className="flex flex-col lg:flex-row gap-5 px-4 sm:px-5 md:px-6 lg:px-10">
+            <div className="flex flex-col lg:flex-row gap-5">
               <div className="w-full lg:w-[58%]">
                 <h2 className="font-behindthetineties leading-[100%] text-secondary-light font-normal">
                   <span className="text-primary italic"> Effective</span>,
@@ -52,8 +52,8 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="p-top">
-              <div className="grid sm:gap-2 md:gap-2 lg:gap-3 xl:gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="pt-50">
+              <div className="grid sm:gap-1 lg:gap-3 xl:gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 <a className="service-card" href="#">
                   <div className="img-wrapper overflow-hidden relative h-64">
                     <Image

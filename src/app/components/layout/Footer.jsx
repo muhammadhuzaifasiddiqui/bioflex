@@ -13,18 +13,21 @@ const Footer = () => {
         <div className="container mx-auto!">
           <div className="flex flex-wrap gap-y-6">
             <div className="w-full lg:w-[36%] me-auto order-first">
-              <a href="/">
-                <Image
-                  src={
-                    "https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/logo.svg"
-                  }
-                  width={120}
-                  height={50}
-                  alt="logo"
-                  unoptimized={true}
-                  className="w-full h-full object-cover"
-                />
-              </a>
+              <div className="footer-logo-wraper">
+                <a href="/">
+                  <Image
+                    src={
+                      "https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/logo.svg"
+                    }
+                    width={120}
+                    height={50}
+                    alt="logo"
+                    unoptimized={true}
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              </div>
+
               <p className="text-secondary-dark pt-4 fs-14">
                 Trusted aesthetic care powered by Canadian, FDA-approved
                 technology — available across Pakistan.

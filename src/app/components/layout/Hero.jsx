@@ -48,7 +48,7 @@ const Hero = () => {
                   unoptimized={true}
                   className="w-full lg:w-auto relative lg:absolute end-0 bottom-0 mx-auto rounded-br-[20px]"
                 />
-                <div className="scroll-mt-[300px] book-appointment-container  mt-[24px] lg:mt-[50px] mb-[20px] lg:mb-[44px] ">
+                <div className="book-appointment-container  mt-[24px] lg:mt-[50px] mb-[20px] lg:mb-[44px] ">
                   <h5 className="text-dark font-medium text-start mb-4 leading-[100%]">
                     Book a Free Appointment
                   </h5>
@@ -74,7 +74,7 @@ const Hero = () => {
                       <div className="relative w-full">
                         <select
                           name="branch"
-                          className="w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+                          className="w-full cursor-pointer form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                           defaultValue=""
                         >
                           <option value="" disabled>
@@ -105,7 +105,7 @@ const Hero = () => {
                       <div className="relative w-full">
                         <select
                           name="branch"
-                          className="w-full form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
+                          className="w-full cursor-pointer form-control font-normal pr-10 appearance-none focus:border-transparent focus:outline-none"
                           defaultValue=""
                         >
                           <option value="" disabled>

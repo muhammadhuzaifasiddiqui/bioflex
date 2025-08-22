@@ -54,7 +54,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 1"
                           unoptimized={true}
-                          className="w-full h-full object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover rounded-[20px]"
                         />
                       </div>
                     </div>
@@ -97,7 +97,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 2"
                           unoptimized={true}
-                          className="w-full h-full object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover rounded-[20px]"
                         />
                       </div>
                     </div>
@@ -137,7 +137,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 3"
                           unoptimized={true}
-                          className="w-full h-full object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover rounded-[20px]"
                         />
                       </div>
                     </div>
