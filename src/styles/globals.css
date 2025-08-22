@@ -233,11 +233,11 @@ h5 {
   margin: 0 auto;
   padding-right: 40px;
   padding-left: 40px;
-  padding-top: 150px;
+  padding-top: 220px;
   background: radial-gradient(50% 85% at 50% 50%, #f4ede4 0, #e9d3b6 100%);
 }
 
-.background-wrapper {
+.hero-section .background-wrapper {
   border-radius: 20px;
 }
 
@@ -350,6 +350,10 @@ h5 {
   backdrop-filter: blur(5px);
 }
 
+.doctor-img-wrapper {
+  border-radius: 20px;
+}
+
 /* blog Section */
 .ratio-16x9 {
   aspect-ratio: 16 / 9;
@@ -390,7 +394,7 @@ h5 {
   padding: 62px 60px 0;
 }
 
-.background-wrapper {
+.book-now-section .background-wrapper {
   border-radius: 20px;
 }
 
@@ -493,6 +497,25 @@ textarea {
     max-width: 1200px;
     padding: 8px 20px;
   }
+  .book-appointment-container {
+    border-radius: 16px;
+  }
+  .book-appointment-container:before {
+    border-radius: 16px;
+  }
+  .doctor-img-wrapper {
+    border-radius: 16px;
+  }
+  .counter-wrapper {
+    border-radius: 16px;
+  }
+  .blog-section .blog-swiper .img-wrapper {
+    border-radius: 16px;
+  }
+  .py-80 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 65;
   }
@@ -508,9 +531,6 @@ textarea {
     height: 470px;
     border-radius: 16px;
   }
-  .product-card .card-footer {
-    padding: 24px 20px 16px 20px;
-  }
   .marquee-section h3 {
     font-size: 55px;
   }
@@ -519,9 +539,14 @@ textarea {
     height: 80px;
     border-radius: 10px;
   }
-  .contact-section .item:first-child {
-    padding-left: 30px;
-    border-color: transparent;
+  .contact-section .item:first-child,
+  .contact-section .item:nth-child(3) {
+    padding-left: 0px;
+    border-color: none;
+  }
+  .contact-section .item:nth-child(2),
+  .contact-section .item:last-child {
+    padding-left: 10px;
   }
   .contact-section .item:nth-child(3) {
     border-color: transparent;
@@ -533,6 +558,9 @@ textarea {
     height: 40px;
     width: 120px;
   }
+  .hero-section .background-wrapper {
+    border-radius: 16px;
+  }
   .navbar .nav-container {
     max-width: 950px;
     padding: 7px 18px;
@@ -540,11 +568,36 @@ textarea {
   .nav-toggle-btn {
     padding: 5px;
   }
+  .book-appointment-container {
+    border-radius: 12px;
+  }
+  .book-appointment-container:before {
+    border-radius: 12px;
+  }
   .product-card .img-wrapper,
   .service-card .img-wrapper {
     height: ;
     width: ;
     border-radius: ;
+  }
+  .product-card .card-footer {
+    display: flex;
+    padding: 20px 16px 14px 16px;
+    border-radius: 16px;
+  }
+  .book-now-section .background-wrapper {
+    border-radius: 16px;
+  }
+  .footer-section {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .footer-section .bottom-row {
+    padding-top: 24px;
+  }
+  .py-80 {
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
   h1 {
     font-size: 55;
@@ -567,6 +620,9 @@ textarea {
   body {
     font-size: 14px;
   }
+  .hero-section .background-wrapper {
+    border-radius: 12px;
+  }
   .logo-wrapper {
     height: 40px;
     width: 120px;
@@ -575,11 +631,40 @@ textarea {
     max-width: 700px;
     padding: 4px 10px;
   }
+  .doctor-img-wrapper {
+    border-radius: 12px;
+  }
+  .counter-wrapper {
+    border-radius: 12px;
+  }
+  .blog-section .blog-swiper .img-wrapper {
+    border-radius: 12px;
+  }
   .product-card .img-wrapper,
   .service-card .img-wrapper {
     width: 100%;
     height: 420px;
     border-radius: 12px;
+  }
+  .product-card .card-footer {
+    display: flex;
+    padding: 16px 14px 12px 14px;
+    border-radius: 12px;
+  }
+  .contact-section .item {
+    border-left: 1px solid #dfdfdf;
+    padding: 15px 30px;
+  }
+  .footer-section {
+    padding-top: 45px;
+    padding-bottom: 18px;
+  }
+  .footer-section .bottom-row {
+    padding-top: 20px;
+  }
+  .py-80 {
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   h1 {
     font-size: 55;
@@ -630,11 +715,25 @@ textarea {
     width: ;
     border-radius: ;
   }
-  h1 {
-    font-size: 40;
+  .book-now-section .background-wrapper {
+    border-radius: 12px;
   }
   .book-now-section .background-wrapper h2 {
     font-size: 35px;
+  }
+  .footer-section {
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .footer-section .bottom-row {
+    padding-top: 18px;
+  }
+  .py-80 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  h1 {
+    font-size: 40;
   }
   h5 {
     font-size: 18px;
@@ -649,8 +748,8 @@ textarea {
     font-size: 13px;
   }
   .book-now-section .background-wrapper {
-    margin-top: 50px;
-    padding: 50px 16px 0;
+    margin-top: 35px;
+    padding: 40px 15px 0;
   }
 }
 

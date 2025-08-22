@@ -37,7 +37,7 @@ const Products = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:pt-13 lg:pt-15">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-5 md:pt-8 lg:pt-10 xl:pt-12">
               <a
                 className="product-card cursor-pointer flex flex-col h-full"
                 href="/products/spf-60-sunblock"

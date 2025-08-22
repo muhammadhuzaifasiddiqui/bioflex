@@ -50,7 +50,7 @@ const Trusted = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-[40%]">
+            <div className="doctor-img-wrapper w-full lg:w-[40%]">
               <Image
                 src={"/images/trusted-section-image.webp"}
                 width={440}

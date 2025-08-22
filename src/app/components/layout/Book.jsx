@@ -11,7 +11,7 @@ const Book = () => {
     <>
       <section className="book-now-section px-5 px:lg-10">
         <div className="background-wrapper w-fit mx-auto">
-          <div className="container mx-auto relative pb-10 sm:pb-12.5 lg:pb-[30px]">
+          <div className="container mx-auto relative pb-7 sm:pb-12.5 lg:pb-[30px]">
             <Image
               src={"/images/footer-image.webp"}
               width={1360}
@@ -21,7 +21,7 @@ const Book = () => {
               className="hidden lg:block lg:w-auto absolute end-0 bottom-0 rounded-br-[20px]"
             />
             <div className="relative z-[1]">
-              <div className="flex flex-col lg:flex-row justify-between gap-y-6">
+              <div className="flex flex-col lg:flex-row justify-between gap-y-4">
                 <div className="w-full lg:w-[60%]">
                   <h2 className="font-behindthetineties text-secondary-light text-center lg:text-start leading-[110%]">
                     Your <span className="text-primary italic">Glow-Up </span>
@@ -70,7 +70,7 @@ const Book = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-center pt-6 lg:pt-[275px]">
+              <div className="text-center pt-4 lg:pt-[275px]">
                 <a
                   className="btn inline-block bg-primary text-white!"
                   href="/#appointment-section"

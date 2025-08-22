@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 const Blog = () => {
   return (
     <>
-      <section className="blog-section px-4 sm:px-5 md:px-6 lg:px-10 pb-20">
+      <section className="blog-section px-4 sm:px-5 md:px-6 lg:px-10 py-80">
         <div className="container mx-auto">
           <div>
             <div className="flex flex-col lg:flex-row justify-between gap-y-[20px] lg:pb-12">
@@ -44,7 +44,7 @@ const Blog = () => {
               modules={[Pagination]}
             >
               <SwiperSlide>
-                <div className="blog-swiper pt-12 pb-5">
+                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-5">
                   <div className="flex flex-col lg:flex-row justify-between gap-y-3 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -54,7 +54,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 1"
                           unoptimized={true}
-                          className="w-full! h-full! object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover"
                         />
                       </div>
                     </div>
@@ -97,7 +97,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 2"
                           unoptimized={true}
-                          className="w-full! h-full! object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover"
                         />
                       </div>
                     </div>
@@ -137,7 +137,7 @@ const Blog = () => {
                           height={250}
                           alt="blog 3"
                           unoptimized={true}
-                          className="w-full! h-full! object-cover rounded-[20px]"
+                          className="w-full! h-full! object-cover"
                         />
                       </div>
                     </div>
