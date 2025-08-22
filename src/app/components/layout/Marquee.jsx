@@ -71,7 +71,7 @@ const Marquee = () => {
                     <Image
                       src={item.img}
                       width={210}
-                      height={200}
+                      height={100}
                       alt={item.alt}
                       unoptimized={true}
                       className="w-full! h-full! object-cover rounded-[10px]"

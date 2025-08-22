@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 70px;
 }
 
 h3 {
@@ -405,10 +405,6 @@ h5 {
   border-radius: 20px;
 }
 
-.w-fit-content {
-  width: fit-content;
-}
-
 .mx-auto {
   margin-inline: auto;
 }
@@ -429,11 +425,6 @@ h5 {
 .contact-section .item:first-child {
   padding-left: 0;
   border-color: transparent;
-}
-
-.contact-section .item {
-  padding: 24px 30px;
-  border-left: 1px solid #dfdfdf;
 }
 
 .contact-section .item {
@@ -509,6 +500,27 @@ textarea {
   h1 {
     font-size: 65;
   }
+  h2 {
+    font-size: 54px;
+  }
+  .fs-35 {
+    font-size: 30px;
+  }
+  .marquee-section h3 {
+    font-size: 55px;
+  }
+  .marquee-section .img-wrapper {
+    width: 170px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .contact-section .item:first-child {
+    padding-left: 30px;
+    border-color: transparent;
+  }
+  .contact-section .item:nth-child(3) {
+    border-color: transparent;
+  }  
 }
 
 @media screen and (max-width: 64rem) {
@@ -529,8 +541,14 @@ textarea {
   h1 {
     font-size: 55;
   }
+  h2 {
+    font-size: 50px;
+  }
   h5 {
     font-size: 20px;
+  }
+  .fs-35 {
+    font-size: 27px;
   }
   .fs-18 {
     font-size: 16px;
@@ -555,8 +573,22 @@ textarea {
   h1 {
     font-size: 55;
   }
+  h2 {
+    font-size: 50px;
+  }
+  .fs-35 {
+    font-size: 25px;
+  }
   .fs-18 {
     font-size: 16px;
+  }
+  .marquee-section h3 {
+    font-size: 45px;
+  }
+  .marquee-section .img-wrapper {
+    width: 160px;
+    height: 75px;
+    border-radius: 10px;
   }
 }
 
@@ -587,14 +619,24 @@ textarea {
   h1 {
     font-size: 40;
   }
+  .book-now-section .background-wrapper h2 {
+    font-size: 35px;
+  }
   h5 {
     font-size: 18px;
+  }
+  .fs-35 {
+    font-size: 23px;
+  }
+  .fs-18 {
+    font-size: 14px;
   }
   .fs-16 {
     font-size: 13px;
   }
-  .fs-18 {
-    font-size: 14px;
+  .book-now-section .background-wrapper {
+    margin-top: 50px;
+    padding: 50px 16px 0;
   }
 }
 
@@ -622,14 +664,19 @@ textarea {
   h1 {
     font-size: 40;
   }
-  h5 {
-    font-size: 18px;
-  }
-  .fs-16 {
-    font-size: 13px;
+  .fs-35 {
+    font-size: 21px;
   }
   .fs-18 {
     font-size: 14px;
+  }
+  .marquee-section h3 {
+    font-size: 40px;
+  }
+  .marquee-section .img-wrapper {
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
   }
 }
 

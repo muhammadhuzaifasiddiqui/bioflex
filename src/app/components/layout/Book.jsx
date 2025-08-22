@@ -10,20 +10,20 @@ const Book = () => {
   return (
     <>
       <section className="book-now-section px-5 px:lg-10">
-        <div className="background-wrapper w-fit-content mx-auto">
-          <div className="container mx-auto relative sm:pb-12.5 lg:pb-[30px]">
+        <div className="background-wrapper w-fit mx-auto">
+          <div className="container mx-auto relative pb-10 sm:pb-12.5 lg:pb-[30px]">
             <Image
               src={"/images/footer-image.webp"}
               width={1360}
               height={550}
               alt="logo"
               unoptimized={true}
-              className="w-full h-full lg:w-auto relative lg:absolute end-0 bottom-0 mx-auto object-cover rounded-br-[20px]"
+              className="hidden lg:block lg:w-auto absolute end-0 bottom-0 rounded-br-[20px]"
             />
             <div className="relative z-[1]">
               <div className="flex flex-col lg:flex-row justify-between gap-y-6">
                 <div className="w-full lg:w-[60%]">
-                  <h2 className="font-behindthetineties text-secondary-light text-center lg:text-start leading-[90%]">
+                  <h2 className="font-behindthetineties text-secondary-light text-center lg:text-start leading-[110%]">
                     Your <span className="text-primary italic">Glow-Up </span>
                     Begins Without the{" "}
                     <span className="text-primary italic">Price Tag</span>
@@ -41,7 +41,9 @@ const Book = () => {
                       href="https://www.facebook.com/bioflexaesthetics/"
                     >
                       <Image
-                        src={"https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/facebook-icon.svg"}
+                        src={
+                          "https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/facebook-icon.svg"
+                        }
                         width={1360}
                         height={550}
                         alt="logo"
@@ -55,7 +57,9 @@ const Book = () => {
                       href="https://www.tiktok.com/@bioflexaesthetics?is_from_webapp=1&amp;sender_device=pc"
                     >
                       <Image
-                        src={"https://api.bioflexaesthetics.com/wp-content/uploads/2025/06/tiktok-icon-new.svg"}
+                        src={
+                          "https://api.bioflexaesthetics.com/wp-content/uploads/2025/06/tiktok-icon-new.svg"
+                        }
                         width={1360}
                         height={550}
                         alt="logo"
@@ -67,7 +71,12 @@ const Book = () => {
                 </div>
               </div>
               <div className="text-center pt-6 lg:pt-[275px]">
-                <a className="btn inline-block bg-primary text-white!" href="/#appointment-section">Book Now</a>
+                <a
+                  className="btn inline-block bg-primary text-white!"
+                  href="/#appointment-section"
+                >
+                  Book Now
+                </a>
               </div>
             </div>
           </div>
