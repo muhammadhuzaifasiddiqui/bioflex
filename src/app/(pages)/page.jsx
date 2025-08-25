@@ -15,7 +15,7 @@ const page = () => {
     <>
       <Navbar />
       <Hero />
-      <section className="service-section overflow-hidden py-80 px-5 sm:px-2 md:px-5 lg:px-5">
+      <section className="service-section overflow-hidden py-80 px-5 sm:px-3 md:px-4 lg:px-5">
         <div className="container mx-auto">
           <div className="flex flex-col">
             <div className="flex flex-col lg:flex-row gap-5">

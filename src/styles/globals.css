@@ -410,7 +410,6 @@ h5 {
 
 /* book-now-section */
 .book-now-section .background-wrapper {
-  margin-top: 100px;
   background: radial-gradient(
     ellipse at center,
     #ffffff 0,
@@ -436,7 +435,7 @@ h5 {
 }
 
 /* contact-section */
-.contact-section {
+.contact-section .container .grid {
   border-top: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
 }
@@ -480,7 +479,6 @@ textarea {
   width: 120px;
 }
 .footer-section {
-  padding-top: 62px;
   padding-bottom: 24px;
 }
 
@@ -564,8 +562,8 @@ textarea {
   }
 
   .py-80 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 65px;
+    padding-bottom: 65px;
   }
   h1 {
     font-size: 65;
@@ -653,7 +651,6 @@ textarea {
     border-radius: 16px;
   }
   .footer-section {
-    padding-top: 50px;
     padding-bottom: 20px;
   }
   .footer-section .bottom-row {
@@ -684,8 +681,8 @@ textarea {
   }
 
   .py-80 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
   h1 {
     font-size: 55;
@@ -751,15 +748,14 @@ textarea {
     padding: 15px 30px;
   }
   .footer-section {
-    padding-top: 45px;
     padding-bottom: 18px;
   }
   .footer-section .bottom-row {
     padding-top: 20px;
   }
   .py-80 {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   h1 {
     font-size: 55;
@@ -821,7 +817,6 @@ textarea {
     font-size: 35px;
   }
   .footer-section {
-    padding-top: 40px;
     padding-bottom: 16px;
   }
   .footer-section .bottom-row {
@@ -852,8 +847,8 @@ textarea {
   }
 
   .py-80 {
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
   h1 {
     font-size: 40;
@@ -871,7 +866,6 @@ textarea {
     font-size: 13px;
   }
   .book-now-section .background-wrapper {
-    margin-top: 35px;
     padding: 40px 15px 0;
   }
 }

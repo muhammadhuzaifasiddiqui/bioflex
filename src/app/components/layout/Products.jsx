@@ -9,7 +9,7 @@ const Products = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="product-section px-4 sm:px-5 md:px-6 lg:px-10 py-40">
+      <section className="product-section px-5 sm:px-3 md:px-4 lg:px-5 py-40">
         <div className="container mx-auto">
           <div className="flex flex-col">
             <div className="w-full lg:w-[60%] text-center mx-auto">

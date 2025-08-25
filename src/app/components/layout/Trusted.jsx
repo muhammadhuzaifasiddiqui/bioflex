@@ -9,7 +9,7 @@ const Trusted = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="trusted-section py-80 px-4 sm:px-5 md:px-6 lg:px-10">
+      <section className="trusted-section py-80 px-5 sm:px-3 md:px-4 lg:px-5">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row justify-between  gap-[20px]">
             <div className="flex flex-col justify-between w-full lg:w-[52%]">
@@ -57,7 +57,7 @@ const Trusted = () => {
                 height={571}
                 alt="logo"
                 unoptimized={true}
-                className="w-full! h-full!"
+                className=""
               />
             </div>
           </div>
