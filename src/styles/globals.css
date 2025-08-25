@@ -575,22 +575,20 @@ textarea {
     border-radius: 7px;
   }
 
-
-.btn {
-  padding: 9px 22px;
-  font-size: 17px;
-  border-radius: 11px;
-}
-.btn-lg {
-  padding: 9px 22px;
-  border-radius: 9px;
-}
-.btn-sm {
-  padding: 9px 24px;
-  border-radius: 7.5px;
-  font-size: 13px;
-}
-
+  .btn {
+    padding: 9px 22px;
+    font-size: 17px;
+    border-radius: 11px;
+  }
+  .btn-lg {
+    padding: 9px 22px;
+    border-radius: 9px;
+  }
+  .btn-sm {
+    padding: 9px 24px;
+    border-radius: 7.5px;
+    font-size: 13px;
+  }
 
   .nav-toggle-btn {
     padding: 5px;
@@ -697,20 +695,20 @@ textarea {
     width: 120px;
   }
 
-.btn {
-  padding: 8px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-}
-.btn-lg {
-  padding: 8px 20px;
-  border-radius: 8px;
-}
-.btn-sm {
-  padding: 8px 22px;
-  border-radius: 7px;
-  font-size: 12px;
-}
+  .btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .btn-lg {
+    padding: 8px 20px;
+    border-radius: 8px;
+  }
+  .btn-sm {
+    padding: 8px 22px;
+    border-radius: 7px;
+    font-size: 12px;
+  }
 
   .navbar .nav-container {
     max-width: 700px;
@@ -788,20 +786,20 @@ textarea {
     width: 120px;
   }
 
-.btn {
-  padding: 7px 18px;
-  font-size: 15px;
-  border-radius: 9px;
-}
-.btn-lg {
-  padding: 7px 18px;
-  border-radius: 7px;
-}
-.btn-sm {
-  padding: 7px 20px;
-  border-radius: 6px;
-  font-size: 11px;
-}
+  .btn {
+    padding: 7px 18px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .btn-lg {
+    padding: 7px 18px;
+    border-radius: 7px;
+  }
+  .btn-sm {
+    padding: 7px 20px;
+    border-radius: 6px;
+    font-size: 11px;
+  }
 
   .navbar {
     width: calc(100% - 65px);
@@ -879,8 +877,8 @@ textarea {
     font-size: 45;
   }
   h2 {
-    font-size: 38px;
-  }  
+    font-size: 40px;
+  }
   h5 {
     font-size: 18px;
   }
@@ -907,20 +905,20 @@ textarea {
     width: 120px;
   }
 
-.btn {
-  padding: 6px 16px;
-  font-size: 14px;
-  border-radius: 8px;
-}
-.btn-lg {
-  padding: 6px 16px;
-  border-radius: 6px;
-}
-.btn-sm {
-  padding: 6px 18px;
-  border-radius: 5px;
-  font-size: 10px;
-}
+  .btn {
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .btn-lg {
+    padding: 6px 16px;
+    border-radius: 6px;
+  }
+  .btn-sm {
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
 
   .navbar {
     width: calc(100% - 55px);
@@ -944,7 +942,7 @@ textarea {
   }
   h2 {
     font-size: 35px;
-  }    
+  }
   .fs-35 {
     font-size: 21px;
   }
@@ -963,7 +961,7 @@ textarea {
   .py-80 {
     padding-top: 40px;
     padding-bottom: 40px;
-  }  
+  }
 }
 
 /* @media screen and (max-width: 27rem) {
