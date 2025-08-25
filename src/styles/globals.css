@@ -522,28 +522,6 @@ textarea {
   .blog-section .blog-swiper .img-wrapper {
     border-radius: 16px;
   }
-
-
-  .btn {
-    padding: 9px 24px;
-    font-size: 18px;
-    border-radius: 12px;
-  }
-  .btn-primary {
-    color: white;
-    background-color: #911e3d;
-  }
-  .btn-lg {
-    padding: 9px 24px;
-    border-radius: 10px;
-  }
-  .btn-sm {
-    padding: 9px 27px;
-    border-radius: 8px;
-    font-size: 14px;
-  }
-
-  
   h1 {
     font-size: 65;
   }
@@ -596,25 +574,20 @@ textarea {
   }
 
 
-  .btn {
-    padding: 9px 24px;
-    font-size: 18px;
-    border-radius: 10px;
-    font-weight: 500;
-  }
-  .btn-primary {
-    color: white;
-    background-color: #911e3d;
-  }
-  .btn-lg {
-    padding: 9px 24px;
-    border-radius: 8px;
-  }
-  .btn-sm {
-    padding: 9px 27px;
-    border-radius: 6px;
-    font-size: 14px;
-  }
+.btn {
+  padding: 9px 22px;
+  font-size: 17px;
+  border-radius: 11px;
+}
+.btn-lg {
+  padding: 9px 22px;
+  border-radius: 9px;
+}
+.btn-sm {
+  padding: 9px 24px;
+  border-radius: 7.5px;
+  font-size: 13px;
+}
 
 
   .nav-toggle-btn {
@@ -723,25 +696,20 @@ textarea {
   }
 
 
-  .btn {
-    padding: 9px 24px;
-    font-size: 18px;
-    border-radius: 8px;
-    font-weight: 500;
-  }
-  .btn-primary {
-    color: white;
-    background-color: #911e3d;
-  }
-  .btn-lg {
-    padding: 9px 24px;
-    border-radius: 6px;
-  }
-  .btn-sm {
-    padding: 9px 27px;
-    border-radius: 5px;
-    font-size: 14px;
-  }
+.btn {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.btn-lg {
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+.btn-sm {
+  padding: 8px 22px;
+  border-radius: 7px;
+  font-size: 12px;
+}
 
 
   .navbar .nav-container {
@@ -821,25 +789,20 @@ textarea {
   }
 
 
-  .btn {
-    padding: 9px 24px;
-    font-size: 18px;
-    border-radius: 8px;
-    font-weight: 500;
-  }
-  .btn-primary {
-    color: white;
-    background-color: #911e3d;
-  }
-  .btn-lg {
-    padding: 9px 24px;
-    border-radius: 6px;
-  }
-  .btn-sm {
-    padding: 9px 27px;
-    border-radius: 5px;
-    font-size: 14px;
-  }
+.btn {
+  padding: 7px 18px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.btn-lg {
+  padding: 7px 18px;
+  border-radius: 7px;
+}
+.btn-sm {
+  padding: 7px 20px;
+  border-radius: 6px;
+  font-size: 11px;
+}
 
 
   .navbar {
@@ -943,27 +906,20 @@ textarea {
     width: 120px;
   }
 
-
-  .btn {
-    padding: 9px 24px;
-    font-size: 18px;
-    border-radius: 8px;
-    font-weight: 500;
-  }
-  .btn-primary {
-    color: white;
-    background-color: #911e3d;
-  }
-  .btn-lg {
-    padding: 9px 24px;
-    border-radius: 6px;
-  }
-  .btn-sm {
-    padding: 9px 27px;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-
+.btn {
+  padding: 6px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.btn-lg {
+  padding: 6px 16px;
+  border-radius: 6px;
+}
+.btn-sm {
+  padding: 6px 18px;
+  border-radius: 5px;
+  font-size: 10px;
+}
 
   .navbar {
     width: calc(100% - 55px);
