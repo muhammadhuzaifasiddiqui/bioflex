@@ -15,7 +15,7 @@ const Blog = () => {
       <section className="blog-section px-5 sm:px-3 md:px-4 lg:px-5">
         <div className="container mx-auto">
           <div>
-            <div className="flex flex-col lg:flex-row justify-between gap-y-[20px] lg:pb-12">
+            <div className="flex flex-col lg:flex-row justify-between gap-y-[20px] pb-5 md:pb-7 lg:pb-9 xl:pb-12">
               <div className="w-full lg:w-1/2">
                 <h2 className="font-behindthetineties text-secondary-light leading-[90%]">
                   Insights &amp; Tips for Your{" "}
@@ -44,7 +44,7 @@ const Blog = () => {
               modules={[Pagination]}
             >
               <SwiperSlide>
-                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
+                <div className="blog-swiper pb-4">
                   <div className="flex flex-col lg:flex-row gap-y-3 gap-x-7 lg:gap-x-12.5 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -85,7 +85,7 @@ const Blog = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
+                <div className="blog-swiper pb-4">
                   <div className="flex flex-col lg:flex-row gap-y-3 gap-x-7 lg:gap-x-12.5 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">
@@ -128,7 +128,7 @@ const Blog = () => {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="blog-swiper pt-6 md:pt-7 lg:pt-10 xl:pt-12 pb-4">
+                <div className="blog-swiper pb-4">
                   <div className="flex flex-col lg:flex-row gap-y-3 gap-x-7 lg:gap-x-12.5 items-center">
                     <div className="w-full lg:w-[52%]">
                       <div className="img-wrapper relative ratio-16x9">

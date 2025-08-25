@@ -321,11 +321,6 @@ h5 {
   background-color: #ffffff80;
 }
 
-/* .btn.btn-lg {
-  padding: 14px 30px;
-  border-radius: 10px;
-} */
-
 .ms-auto {
   margin-inline-start: auto;
 }
@@ -576,6 +571,10 @@ textarea {
     height: 470px;
     border-radius: 16px;
   }
+  .product-card .card-footer {
+    padding: 20px 16px 14px 16px;
+    border-radius: 16px;
+  }
   .contact-section .item:first-child,
   .contact-section .item:nth-child(3) {
     padding-left: 0px;
@@ -623,7 +622,6 @@ textarea {
     border-radius: ;
   }
   .product-card .card-footer {
-    display: flex;
     padding: 20px 16px 14px 16px;
     border-radius: 16px;
   }
@@ -731,7 +729,6 @@ textarea {
     border-radius: 12px;
   }
   .product-card .card-footer {
-    display: flex;
     padding: 16px 14px 12px 14px;
     border-radius: 12px;
   }
@@ -803,12 +800,15 @@ textarea {
     width: ;
     border-radius: ;
   }
+  .product-card .card-footer {
+    padding: 15px 12px;
+    border-radius: 10px;
+  }
   .marquee-section .img-wrapper {
     width: 145px;
     height: 60px;
     border-radius: 7px;
   }
-
   .marquee-section h3 {
     font-size: 40px;
     border-radius: 7px;

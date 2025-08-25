@@ -55,7 +55,7 @@ const Products = () => {
                 <div className="card-footer items-center justify-between gap-2 mt-[5px] flex-1">
                   <div>
                     <h5 className="lint-clamp-1 text-secondary-dark font-medium line-clamp-2 leading-[101%]">
-                      SPF 60 Sunblock
+                      Sunblock
                     </h5>
                     <div className="flex items-center gap-2.5 mt-2.5">
                       <p className="text-grey font-normal fs-18">Details</p>
