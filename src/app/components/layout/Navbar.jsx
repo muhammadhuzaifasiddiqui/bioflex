@@ -11,6 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const navbar = document.querySelector(".navbar");
+
     let lastScrollState = false; // Track the current "scroll-down" state
 
     const handleScroll = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll ", handleScroll);
   }, []);
 
   return (
@@ -108,13 +109,7 @@ const Navbar = () => {
                   unoptimized={true}
                   className="w-full! h-full! object-cover"
                 />
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="38"
-                  viewBox="0 0 39 38"
-                  fill="none"
-                > */}
+                {}
                 <path
                   d="M6.58496 9.5H31.9183M6.58496 19H31.9183M6.58496 28.5H31.9183"
                   stroke="#A1A1AA"
@@ -135,9 +130,9 @@ const Navbar = () => {
                   height: isOpen ? "auto" : 0,
                 }}
                 exit={{ opacity: 0, height: 0 }}
-                className="lg:hidden absolute top-16 left-0 right-0 z-10 overflow-hidden bg-[#9e9a9ac4] font-medium"
+                className="toggle-navbar lg:hidden absolute top-14 left-0 right-0 z-10 overflow-hidden bg-[#f4ede4f6] font-normal rounded-[12px]"
               >
-                <ul className="flex flex-col items-start p-6 rounded-md overflow-hidden">
+                <ul className="flex flex-col items-start p-4 rounded-md overflow-hidden">
                   <li className="my-4">
                     <Link
                       href={"/"}
