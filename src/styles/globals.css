@@ -522,12 +522,14 @@ textarea {
   .blog-section .blog-swiper .img-wrapper {
     border-radius: 16px;
   }
+
   h1 {
-    font-size: 65;
+    font-size: 65px;
   }
   h2 {
     font-size: 54px;
   }
+
   .fs-35 {
     font-size: 30px;
   }
@@ -695,7 +697,6 @@ textarea {
     width: 120px;
   }
 
-
 .btn {
   padding: 8px 20px;
   font-size: 16px;
@@ -710,7 +711,6 @@ textarea {
   border-radius: 7px;
   font-size: 12px;
 }
-
 
   .navbar .nav-container {
     max-width: 700px;
@@ -788,7 +788,6 @@ textarea {
     width: 120px;
   }
 
-
 .btn {
   padding: 7px 18px;
   font-size: 15px;
@@ -803,7 +802,6 @@ textarea {
   border-radius: 6px;
   font-size: 11px;
 }
-
 
   .navbar {
     width: calc(100% - 65px);
@@ -878,8 +876,11 @@ textarea {
     padding-bottom: 46px;
   }
   h1 {
-    font-size: 40;
+    font-size: 45;
   }
+  h2 {
+    font-size: 38px;
+  }  
   h5 {
     font-size: 18px;
   }
@@ -941,6 +942,9 @@ textarea {
   h1 {
     font-size: 40;
   }
+  h2 {
+    font-size: 35px;
+  }    
   .fs-35 {
     font-size: 21px;
   }
