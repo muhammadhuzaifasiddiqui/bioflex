@@ -522,11 +522,12 @@ textarea {
   .blog-section .blog-swiper .img-wrapper {
     border-radius: 16px;
   }
+
+
   .btn {
     padding: 9px 24px;
     font-size: 18px;
     border-radius: 12px;
-    font-weight: 500;
   }
   .btn-primary {
     color: white;
@@ -541,10 +542,8 @@ textarea {
     border-radius: 8px;
     font-size: 14px;
   }
-  .py-80 {
-    padding-top: 65px;
-    padding-bottom: 65px;
-  }
+
+  
   h1 {
     font-size: 65;
   }
@@ -595,6 +594,8 @@ textarea {
     padding: 7px 18px;
     border-radius: 7px;
   }
+
+
   .btn {
     padding: 9px 24px;
     font-size: 18px;
@@ -614,6 +615,8 @@ textarea {
     border-radius: 6px;
     font-size: 14px;
   }
+
+
   .nav-toggle-btn {
     padding: 5px;
   }
@@ -683,8 +686,8 @@ textarea {
     font-size: 14px;
   }
   .py-80 {
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 65px;
+    padding-bottom: 65px;
   }
   h1 {
     font-size: 55;
@@ -718,6 +721,8 @@ textarea {
     height: 40px;
     width: 120px;
   }
+
+
   .btn {
     padding: 9px 24px;
     font-size: 18px;
@@ -737,6 +742,8 @@ textarea {
     border-radius: 5px;
     font-size: 14px;
   }
+
+
   .navbar .nav-container {
     max-width: 700px;
     padding: 4px 10px;
@@ -778,8 +785,8 @@ textarea {
     padding-top: 20px;
   }
   .py-80 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
   h1 {
     font-size: 55;
@@ -812,6 +819,8 @@ textarea {
     height: 37px;
     width: 120px;
   }
+
+
   .btn {
     padding: 9px 24px;
     font-size: 18px;
@@ -831,6 +840,8 @@ textarea {
     border-radius: 5px;
     font-size: 14px;
   }
+
+
   .navbar {
     width: calc(100% - 65px);
     top: 30px;
@@ -900,8 +911,8 @@ textarea {
     font-size: 14px;
   }
   .py-80 {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 46px;
+    padding-bottom: 46px;
   }
   h1 {
     font-size: 40;
@@ -931,6 +942,8 @@ textarea {
     height: 35px;
     width: 120px;
   }
+
+
   .btn {
     padding: 9px 24px;
     font-size: 18px;
@@ -950,6 +963,8 @@ textarea {
     border-radius: 5px;
     font-size: 14px;
   }
+
+
   .navbar {
     width: calc(100% - 55px);
     top: 30px;
@@ -985,6 +1000,10 @@ textarea {
     font-size: 35px;
     border-radius: 5px;
   }
+  .py-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }  
 }
 
 /* @media screen and (max-width: 27rem) {

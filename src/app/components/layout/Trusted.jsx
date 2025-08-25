@@ -57,7 +57,7 @@ const Trusted = () => {
                 height={571}
                 alt="logo"
                 unoptimized={true}
-                className=""
+                className="mx-auto"
               />
             </div>
           </div>
