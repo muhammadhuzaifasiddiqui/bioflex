@@ -89,7 +89,7 @@ const Marquee = () => {
           </Swiper>
         </div>
 
-        <div className="flex flex-row pt-6">
+        <div className="flex flex-row pt-3 md:pt-4 lg:pt-5 xl:pt-6.5">
           <Swiper
             modules={[Autoplay]}
             loop={true}
