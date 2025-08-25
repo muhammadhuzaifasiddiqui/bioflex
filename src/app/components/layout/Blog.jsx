@@ -173,7 +173,6 @@ const Blog = () => {
 
             <style jsx global>{`
               .custom-bullet {
-
               }
 
               .swiper-pagination-bullet-active.custom-bullet {
