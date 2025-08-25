@@ -237,10 +237,6 @@ h5 {
   padding: 8px;
 }
 
-.toggle-navbar{
-
-}
-
 /* hero section */
 .hero-section .background-wrapper {
   margin: 0 auto;
@@ -923,9 +919,8 @@ textarea {
     border-radius: 5px;
     font-size: 10px;
   }
-
   .navbar {
-    width: calc(100% - 55px);
+    width: calc(100% - 25px);
     top: 30px;
   }
   .navbar .nav-container {

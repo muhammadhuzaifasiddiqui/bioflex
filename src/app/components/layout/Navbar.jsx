@@ -27,13 +27,12 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll ", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0 sm:px-3 md:px-4 lg:px-5">
+      <nav className="navbar absolute w-full left-0 px-3 md:px-3.5 lg:px-5">
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="logo-wrapper cursor-pointer">
@@ -121,77 +120,78 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-          <AnimatePresence>
-            {isOpen && (
-              <motion.nav
-                initial={{ opacity: 0, height: 0 }}
-                animate={{
-                  opacity: isOpen ? 1 : 0,
-                  height: isOpen ? "auto" : 0,
-                }}
-                exit={{ opacity: 0, height: 0 }}
-                className="toggle-navbar lg:hidden absolute top-14 left-0 right-0 z-10 overflow-hidden bg-[#f4ede4f6] font-normal rounded-[12px]"
-              >
-                <ul className="flex flex-col items-start p-4 rounded-md overflow-hidden">
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Home
-                    </Link>
-                  </li>
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Services
-                    </Link>
-                  </li>
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Products
-                    </Link>
-                  </li>
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Locations
-                    </Link>
-                  </li>
-                  <li className="my-4">
-                    <Link
-                      href={"/"}
-                      className={""}
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Articles
-                    </Link>
-                  </li>
-                </ul>
-              </motion.nav>
-            )}
-          </AnimatePresence>
         </div>
+
+        <AnimatePresence>
+          {isOpen && (
+            <motion.nav
+              initial={{ opacity: 0, height: 0 }}
+              animate={{
+                opacity: isOpen ? 1 : 0,
+                height: isOpen ? "auto" : 0,
+              }}
+              exit={{ opacity: 0, height: 0 }}
+              className="lg:hidden absolute top-14 left-0 right-0 z-10 overflow-hidden px-3 md:px-3.5 lg:px-5"
+            >
+              <ul className="flex flex-col items-start p-4 overflow-hidden bg-[#f4ede4f6] font-normal rounded-[12px]">
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    About
+                  </Link>
+                </li>
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Products
+                  </Link>
+                </li>
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Locations
+                  </Link>
+                </li>
+                <li className="my-4">
+                  <Link
+                    href={"/"}
+                    className={""}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Articles
+                  </Link>
+                </li>
+              </ul>
+            </motion.nav>
+          )}
+        </AnimatePresence>
       </nav>
     </>
   );
