@@ -39,6 +39,12 @@ const Marquee = () => {
       img: "/images/Aesthetic.webp",
       alt: "Aesthetic",
     },
+    {
+      id: 6,
+      title: "Skin-Care",
+      img: "/images/ppr-threapy.webp",
+      alt: "Skin-Care",
+    }
   ];
 
   return (
