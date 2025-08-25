@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0 px-0 sm:px-3.5 md:px-5">
+      <nav className="navbar absolute w-full left-0 sm:px-3 md:px-4 lg:px-5">
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="logo-wrapper cursor-pointer">
@@ -87,10 +87,7 @@ const Navbar = () => {
                   className="w-full! h-full! object-cover cursor-pointer"
                 />
               </div>
-              <a
-                href="#"
-                className="btn btn-primary btn-sm fs-14 font-normal"
-              >
+              <a href="#" className="btn btn-primary btn-sm fs-14 font-normal">
                 Login
               </a>
             </div>
@@ -102,13 +99,15 @@ const Navbar = () => {
                 aria-label="Toggle menu"
               >
                 <Image
-                  src={"https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/menu.svg"}
+                  src={
+                    "https://api.bioflexaesthetics.com/wp-content/uploads/2025/05/menu.svg"
+                  }
                   width={24}
                   height={25}
                   alt="hamburger"
                   unoptimized={true}
                   className="w-full! h-full! object-cover"
-                />                                
+                />
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="39"
@@ -116,13 +115,13 @@ const Navbar = () => {
                   viewBox="0 0 39 38"
                   fill="none"
                 > */}
-                  <path
-                    d="M6.58496 9.5H31.9183M6.58496 19H31.9183M6.58496 28.5H31.9183"
-                    stroke="#A1A1AA"
-                    strokeWidth="3.16667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
+                <path
+                  d="M6.58496 9.5H31.9183M6.58496 19H31.9183M6.58496 28.5H31.9183"
+                  stroke="#A1A1AA"
+                  strokeWidth="3.16667"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
                 {/* </svg> */}
               </button>
             </div>

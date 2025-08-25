@@ -9,7 +9,7 @@ const Footer = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="footer-section px-5 sm:px-3 md:px-4 lg:px-5">
+      <section className="footer-section px-3 md:px-4 lg:px-5">
         <div className="container mx-auto!">
           <div className="flex flex-wrap gap-y-6">
             <div className="w-full lg:w-[36%] me-auto order-first">
