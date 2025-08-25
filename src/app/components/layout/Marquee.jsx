@@ -63,7 +63,7 @@ const Marquee = () => {
               <SwiperSlide key={index} className="w-fit!">
                 <div className="flex items-center gap-2.5 px-1.5">
                   <div className="inline-block">
-                    <h3 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
+                    <h3 className="text-primary font-behindthetineties border border-[#911E3D4D] p-4 leading-[70%]">
                       {item.title}
                     </h3>
                   </div>
@@ -110,7 +110,7 @@ const Marquee = () => {
                     />
                   </div>
                   <div className="inline-block">
-                    <h3 className="text-primary font-behindthetineties rounded-[10px] border border-[#911E3D4D] p-5 leading-[70%]">
+                    <h3 className="text-primary font-behindthetineties border border-[#911E3D4D] p-4 leading-[70%]">
                       {item.title}
                     </h3>
                   </div>
