@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scroll, setScrolled] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
-
+ 
   useEffect(() => {
     const navbar = document.querySelector(".navbar");
 
