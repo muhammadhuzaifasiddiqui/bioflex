@@ -32,7 +32,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0 px-3 md:px-3.5 lg:px-5" id="navbar">
+      <nav
+        className="navbar absolute w-full left-0 px-3 md:px-3.5 lg:px-5"
+        id="navbar"
+      >
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="logo-wrapper cursor-pointer">
