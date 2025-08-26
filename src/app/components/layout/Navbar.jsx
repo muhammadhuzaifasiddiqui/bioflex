@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     const navbar = document.querySelector(".navbar");
 
-    let lastScrollState = false; // Track the current "scroll-down" state
+          let lastScrollState = false; // Track the current "scroll-down" state
 
     const handleScroll = () => {
       if (!navbar) return;
