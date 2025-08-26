@@ -9,7 +9,7 @@ const Contact = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="contact-section px-3 md:px-4 lg:px-5 py-80">
+      <section className="contact-section px-3 md:px-4 lg:px-5 py-80" id="contact">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 xl:grid-cols-4">
             <div className="item">

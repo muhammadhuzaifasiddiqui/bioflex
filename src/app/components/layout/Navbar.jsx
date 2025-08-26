@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar absolute w-full left-0 px-3 md:px-3.5 lg:px-5">
+      <nav className="navbar absolute w-full left-0 px-3 md:px-3.5 lg:px-5" id="navbar">
         <div className="w-full container nav-container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px]">
             <div className="logo-wrapper cursor-pointer">
@@ -46,22 +46,22 @@ const Navbar = () => {
               />
             </div>
             <div className="lg:flex hidden navbar-menu items-center justify-center gap-2 xl:gap-8">
-              <a className="fs-16 nav-link fw-normal active" href="#">
+              <a className="fs-16 nav-link fw-normal active" href="#navbar">
                 Home
               </a>
-              <a className="fs-16 nav-link font-normal" href="#">
+              <a className="fs-16 nav-link font-normal" href="#trusted">
                 About
               </a>
-              <a className="fs-16 nav-link font-normal" href="#">
+              <a className="fs-16 nav-link font-normal" href="#service">
                 Services
               </a>
-              <a className="fs-16 nav-link font-normal" href="#">
+              <a className="fs-16 nav-link font-normal" href="#product">
                 Products
               </a>
-              <a className="fs-16 nav-link font-normal" href="#">
+              <a className="fs-16 nav-link font-normal" href="#blog">
                 Locations
               </a>
-              <a className="fs-16 nav-link font-normal" href="#">
+              <a className="fs-16 nav-link font-normal" href="#book">
                 Articles
               </a>
             </div>

@@ -9,7 +9,7 @@ const Hero = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="hero-section px-3 md:px-4 lg:px-5 mt-4 lg:mt-5">
+      <section className="hero-section px-3 md:px-4 lg:px-5 mt-4 lg:mt-5" id="hero">
         <div className="background-wrapper relative">
           <div className="container mx-auto">
             <div className="w-full lg:w-[60%] text-center lg:text-start pb-[20px] lg:pb-[44px]">

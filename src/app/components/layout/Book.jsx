@@ -9,7 +9,7 @@ const Book = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <section className="book-now-section px-3 md:px-4 lg:px-5">
+      <section className="book-now-section px-3 md:px-4 lg:px-5" id="book">
         <div className="background-wrapper w-fit mx-auto">
           <div className="container mx-auto relative pb-7 sm:pb-12.5 lg:pb-[30px]">
             <Image

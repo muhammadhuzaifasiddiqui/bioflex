@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 const Blog = () => {
   return (
     <>
-      <section className="blog-section px-3 md:px-4 lg:px-5">
+      <section className="blog-section px-3 md:px-4 lg:px-5" id="blog">
         <div className="container mx-auto">
           <div>
             <div className="flex flex-col lg:flex-row justify-between gap-y-[20px] pb-5 md:pb-7 lg:pb-9 xl:pb-12">
