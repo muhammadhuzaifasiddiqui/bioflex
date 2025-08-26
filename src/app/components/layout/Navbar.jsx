@@ -17,7 +17,7 @@ const Navbar = () => {
     const handleScroll = () => {
       if (!navbar) return;
 
-      const shouldAddClass = window.scrollY >= 25;
+            const shouldAddClass = window.scrollY >= 25;
 
       // Only update class if state has changed
       if (shouldAddClass !== lastScrollState) {
@@ -122,6 +122,8 @@ const Navbar = () => {
           </div>
         </div>
 
+
+
         <AnimatePresence>
           {isOpen && (
             <motion.nav
@@ -131,10 +133,10 @@ const Navbar = () => {
                 height: isOpen ? "auto" : 0,
               }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden absolute top-14 left-0 right-0 z-10 overflow-hidden px-3 md:px-3.5 lg:px-5"
+              className="lg:hidden absolute mt-2 left-0 right-0 z-10 overflow-hidden px-3 md:px-3.5 lg:px-5"
             >
-              <ul className="flex flex-col items-start p-4 overflow-hidden bg-[#f4ede4f6] font-normal rounded-[12px]">
-                <li className="my-4">
+              <ul className="flex flex-col items-start px-[20px] py-[10px] overflow-hidden bg-[#f4ede4f6] font-normal rounded-[12px]">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
@@ -143,7 +145,7 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
-                <li className="my-4">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
@@ -152,7 +154,7 @@ const Navbar = () => {
                     About
                   </Link>
                 </li>
-                <li className="my-4">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
@@ -161,7 +163,7 @@ const Navbar = () => {
                     Services
                   </Link>
                 </li>
-                <li className="my-4">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
@@ -170,7 +172,7 @@ const Navbar = () => {
                     Products
                   </Link>
                 </li>
-                <li className="my-4">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
@@ -179,7 +181,7 @@ const Navbar = () => {
                     Locations
                   </Link>
                 </li>
-                <li className="my-4">
+                <li className="px-[6px] py-[10px]">
                   <Link
                     href={"/"}
                     className={""}
