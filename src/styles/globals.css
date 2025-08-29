@@ -291,8 +291,8 @@ h5 {
   background-color: #fff;
 }
 
-.product-card .img-wrapper img,
-.service-card .img-wrapper img {
+.product-card .img-wrapper,
+.service-card .img-wrapper {
   transition: all 0.3s ease;
 }
 
